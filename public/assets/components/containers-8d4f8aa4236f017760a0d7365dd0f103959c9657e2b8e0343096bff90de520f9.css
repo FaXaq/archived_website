@@ -1,0 +1,40 @@
+/* line 4, /home/marin/Documents/website/app/assets/stylesheets/components/containers.scss */
+.container {
+  display: flex;
+  margin: 1em;
+  height: 100vh;
+}
+
+/* line 10, /home/marin/Documents/website/app/assets/stylesheets/components/containers.scss */
+.inner {
+  width: 65%;
+  margin: auto;
+}
+@media (orientation: portrait) {
+  /* line 10, /home/marin/Documents/website/app/assets/stylesheets/components/containers.scss */
+  .inner {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (min-width: 736px) and (orientation: portrait) {
+  /* line 10, /home/marin/Documents/website/app/assets/stylesheets/components/containers.scss */
+  .inner {
+    width: 100%;
+  }
+}
+
+/* line 24, /home/marin/Documents/website/app/assets/stylesheets/components/containers.scss */
+.main {
+  padding: 1em 2em;
+  overflow: auto;
+}
+
+/* line 29, /home/marin/Documents/website/app/assets/stylesheets/components/containers.scss */
+.left-pan {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  border-right: 1px solid grey;
+  margin: 1em 0em;
+  padding: 1em;
+}

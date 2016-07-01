@@ -1,0 +1,16 @@
+ul {
+    //neither actions on forms nor nav
+    &:not(.actions):not(.nav) > li {
+        &:before {
+            margin-right: 20px;
+            display:inline-block;
+            font-family:"FontAwesome";
+            content:"\f13d";
+            font-size:0.6em;
+        }
+    }
+}
+
+li > ul {
+    margin-left:20px;
+}

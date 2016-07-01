@@ -1,0 +1,92 @@
+@import url(https:\/\/fonts.googleapis.com/css?family=Source+Code+Pro:400,900,600,200);
+/* line 5, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+body {
+  font-family: Source Code Pro;
+  line-height: 2em;
+}
+
+/* line 10, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+.justify {
+  text-align: justify;
+}
+
+/* line 17, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 2em;
+}
+
+/* line 21, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+h1 {
+  font-size: 3em;
+}
+
+/* line 25, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+h2 {
+  font-size: 2.5em;
+}
+
+/* line 29, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+h3 {
+  font-size: 2em;
+}
+
+/* line 33, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+h4 {
+  font-size: 1.75em;
+}
+
+/* line 37, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+h5 {
+  font-size: 1.5em;
+}
+
+/* line 41, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+h6 {
+  font-size: 1.25em;
+}
+
+/* line 46, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+header > h1, header h2, header h3, header h4, header h5, header h6 {
+  line-height: normal;
+}
+/* line 49, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+header > p {
+  font-size: 1.25em;
+  line-height: 2em;
+  color: grey;
+}
+
+/* line 58, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+a {
+  color: initial;
+}
+
+/* line 64, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+code {
+  white-space: nowrap;
+  padding: 0.5em 1em;
+  margin: 0em 0.25em;
+  background: rgba(130, 130, 130, 0.1);
+  border: 1px solid rgba(130, 130, 130, 0.3);
+  border-radius: 5px;
+  font-family: Courier, monospace;
+  font-size: 0.85em;
+  color: #3F3F3F;
+}
+
+/* line 76, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+pre {
+  white-space: nowrap;
+  margin: 1em 0.25em;
+  background: rgba(130, 130, 130, 0.1);
+  border: 1px solid rgba(130, 130, 130, 0.3);
+  border-radius: 5px;
+  font-size: 0.85em;
+}
+/* line 83, /home/marin/Documents/website/app/assets/stylesheets/components/text.scss */
+pre code {
+  background: none;
+  border: none;
+  margin: 0;
+  font-size: 1em;
+}

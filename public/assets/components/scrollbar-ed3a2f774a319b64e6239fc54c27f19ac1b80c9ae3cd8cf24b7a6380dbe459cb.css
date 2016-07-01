@@ -1,0 +1,22 @@
+/* line 2, /home/marin/Documents/website/app/assets/stylesheets/components/scrollbar.scss */
+::-webkit-scrollbar {
+  width: 0.25em;
+  height: 0.25em;
+}
+
+/* line 7, /home/marin/Documents/website/app/assets/stylesheets/components/scrollbar.scss */
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+/* line 11, /home/marin/Documents/website/app/assets/stylesheets/components/scrollbar.scss */
+::-webkit-scrollbar-track {
+  background: #dfdfdf;
+  margin: 1em 0em;
+}
+
+/* line 17, /home/marin/Documents/website/app/assets/stylesheets/components/scrollbar.scss */
+body {
+  scrollbar-face-color: grey;
+  scrollbar-track-color: #dfdfdf;
+}

@@ -1,0 +1,63 @@
+@import "require/vars";
+
+form {
+    width:100%;
+    > div {
+        margin:1em 2em;
+    }
+    input {
+        width:100%;
+        outline:none;
+        border:none;
+        border-bottom: 1px solid black;
+        font-family: $font-family;
+        font-size:100%;
+        &:focus {
+            border-bottom: 2px solid black;
+        }
+    }
+    textarea {
+        width:100%;
+        outline:none;
+        border:none;
+        border-bottom: 1px solid black;
+        font-family: $font-family;
+        font-size:100%;
+        &:focus {
+            border-bottom: 2px solid black;
+        }
+    }
+
+    //checkbox style
+    input[type="checkbox"] {
+        display:none;
+        + label {
+            display:inline-block;
+            &:after {
+                font-family:"FontAwesome";
+                display:inline-block;
+                content:" ";
+                white-space:no-wrap;
+                border:1px solid black;
+                margin-left:5px;
+                height:20px;
+                width:20px;
+                border-radius:25%;
+            }
+        }
+
+        &:checked {
+            + label {
+                &:after {
+                    content:"\f00d";
+                }
+            }
+        }
+    }
+
+    ul.actions {
+        > li {
+            list-style:none;
+        }
+    }
+}

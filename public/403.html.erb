@@ -1,0 +1,34 @@
+<html>
+   <head>
+      <title>Whoops 403</title>
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   </head>
+
+   <body>
+      <div class="container inner">
+         <%= render "nav" %>
+         <div class="main">
+            <section>
+               <header>
+                  <h1>
+                     403
+                  </h1>
+                  <p>
+                     403
+                  </p>
+               </header>
+               <article>
+                  Well I guess it's a 403. I'm still working on the article. Wait just a little bit more !
+                  Percentage of completion :
+                  <span id="completion" title="It's a joke">
+                  </span>
+                  <script>
+                     document.getElementById("completion").innerHTML = Math.round(Math.random() * 100);
+                  </script>
+               </article>
+            </section>
+         </div>
+      </div>
+   </body>
+</html>

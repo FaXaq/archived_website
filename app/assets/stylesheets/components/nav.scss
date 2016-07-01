@@ -1,0 +1,66 @@
+@import "font-awesome";
+@import "breakpoint";
+@import "require/size";
+@import "require/vars";
+
+.nav {
+    @include breakpoint($medium-lower) {
+        size:150%;
+    }
+    > .element {
+        &:not(:last-child) {
+        }
+        > img.pp {
+            border-radius:50%;
+            height:100px;
+            width:100px;
+            padding:2px;
+            border:1px solid grey;
+        }
+        > form {
+            display:inline-block;
+            margin:auto;
+            > input {
+                outline:none;
+                border:none;
+                border-bottom: 1px solid black;
+                font-family: $font-family;
+                font-size:100%;
+                &:focus {
+                    border-bottom: 2px solid black;
+                }
+            }
+            > * {
+                display:inline;
+            }
+        }
+        padding:1em;
+        text-align:right;
+        text-transform:uppercase;
+    }
+    display:none;
+}
+
+#label-nav-checkbox{
+    cursor:pointer;
+}
+
+#nav-checkbox {
+    display:none;
+    &:checked {
+        & ~ .nav {
+            display:block;
+        }
+    }
+}
+
+.nav-title {
+    font-style:bold;
+}
+
+.nav-subtitle {
+    font-size:75%;
+    space-wrap:no-wrap;
+    font-style:italic;
+    color:grey;
+}

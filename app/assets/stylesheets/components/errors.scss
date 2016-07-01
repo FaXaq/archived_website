@@ -1,0 +1,14 @@
+.errors {
+    color:red;
+    padding:50px;
+    > .errors-list {
+        margin:20px;
+    }
+}
+
+.field_with_errors > input {
+    border-bottom-color:red;
+    &:focus {
+        border-bottom-color:red;
+    }
+}

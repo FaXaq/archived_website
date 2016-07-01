@@ -1,0 +1,34 @@
+table {
+    margin:20px auto;
+    color:grey;
+    width:100%;
+    text-align:center;
+    > thead {
+        > tr {
+            > th {
+                font-weight: bold;
+                padding:1em;
+                border-left:2px solid rgb(200, 200, 200);
+                border-right:2px solid rgb(200, 200, 200);
+            }
+        }
+        border-bottom:2px solid rgb(130, 130, 130);
+    }
+
+    > tbody {
+        > tr {
+            border:2px solid rgb(130, 130, 130);
+            > th {
+                font-weight: bold;
+                padding:1em;
+                border-left:2px solid rgb(200, 200, 200);
+                border-right:2px solid rgb(200, 200, 200);
+            }
+            > td {
+                padding:1em;
+                border-left:2px solid rgb(200, 200, 200);
+                border-right:2px solid rgb(200, 200, 200);
+            }
+        }
+    }
+}

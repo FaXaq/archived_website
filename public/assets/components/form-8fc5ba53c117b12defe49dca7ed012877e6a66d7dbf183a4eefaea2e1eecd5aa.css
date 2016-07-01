@@ -1,0 +1,22 @@
+@import url(https:\/\/fonts.googleapis.com/css?family=Source+Code+Pro:400,900,600,200);
+/* line 3, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form {
+  width: 100%;
+}
+/* line 5, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form > * {
+  margin: 1em 2em;
+}
+/* line 8, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: Source Code Pro;
+  font-size: 100%;
+}
+/* line 15, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form input:focus {
+  border-bottom: 2px solid black;
+}

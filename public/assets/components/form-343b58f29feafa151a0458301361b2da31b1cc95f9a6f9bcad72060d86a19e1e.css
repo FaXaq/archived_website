@@ -1,0 +1,63 @@
+@import url(https:\/\/fonts.googleapis.com/css?family=Source+Code+Pro:400,900,600,200);
+/* line 3, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form {
+  width: 100%;
+}
+/* line 5, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form > div {
+  margin: 1em 2em;
+}
+/* line 8, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: Source Code Pro;
+  font-size: 100%;
+}
+/* line 15, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form input:focus {
+  border-bottom: 2px solid black;
+}
+/* line 19, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: Source Code Pro;
+  font-size: 100%;
+}
+/* line 26, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form textarea:focus {
+  border-bottom: 2px solid black;
+}
+/* line 32, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form input[type="checkbox"] {
+  display: none;
+}
+/* line 34, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form input[type="checkbox"] + label {
+  display: inline-block;
+}
+/* line 36, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form input[type="checkbox"] + label:after {
+  font-family: "FontAwesome";
+  display: inline-block;
+  content: " ";
+  white-space: no-wrap;
+  border: 1px solid black;
+  margin-left: 5px;
+  height: 20px;
+  width: 20px;
+  border-radius: 25%;
+}
+/* line 51, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form input[type="checkbox"]:checked + label:after {
+  content: "\f00d";
+}
+/* line 59, /home/marin/Documents/website/app/assets/stylesheets/components/form.scss */
+form ul.actions > li {
+  list-style: none;
+}

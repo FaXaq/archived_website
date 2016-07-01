@@ -1,0 +1,25 @@
+<% provide(:title, 'Sign up') %>
+
+<section id="login" class="wrapper style1">
+   <div class="inner">
+      <h2>login</h2>
+      <%= render "errors" %>
+      <%= form_for(:session, url: login_path) do |f| %>
+      <hr>
+         <div class="row uniform 75%">
+            <div class="6u$ 12u$(xsmall)">
+               <%= f.email_field :email, placeholder: "is@this.love" %>
+            </div>
+
+            <div class="6u$ 12u$(xsmall)">
+               <%= f.password_field :password, placeholder: "Password" %>
+            </div>
+         </div>
+         <ul class="actions">
+            <li>
+               <%= f.submit "Let's co !", class: "button special" %>
+            </li>
+         </ul>
+         <% end %>
+      </div>
+   </section>

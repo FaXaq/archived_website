@@ -1,0 +1,21 @@
+section {
+    > header {
+        margin-bottom:10px;
+    }
+    > footer {
+
+        &:before {
+            content:"";
+            display:block;
+            height:1px;
+            background:grey;
+            width:75%;
+            text-align:center;
+            margin: 20px auto
+        }
+
+        font-style:italic;
+        text-align:right;
+    }
+    padding:3em 1em;
+}

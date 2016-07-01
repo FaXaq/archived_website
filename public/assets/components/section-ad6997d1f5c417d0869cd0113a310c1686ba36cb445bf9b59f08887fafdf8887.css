@@ -1,0 +1,23 @@
+/* line 1, /home/marin/Documents/website/app/assets/stylesheets/components/section.scss */
+section {
+  padding: 3em 1em;
+}
+/* line 2, /home/marin/Documents/website/app/assets/stylesheets/components/section.scss */
+section > header {
+  margin-bottom: 10px;
+}
+/* line 5, /home/marin/Documents/website/app/assets/stylesheets/components/section.scss */
+section > footer {
+  font-style: italic;
+  text-align: right;
+}
+/* line 7, /home/marin/Documents/website/app/assets/stylesheets/components/section.scss */
+section > footer:before {
+  content: "";
+  display: block;
+  height: 1px;
+  background: grey;
+  width: 75%;
+  text-align: center;
+  margin: 20px auto;
+}

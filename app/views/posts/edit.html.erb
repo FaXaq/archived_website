@@ -1,0 +1,57 @@
+<section id="edit" class="wrapper style1">
+   <header>
+      <h1>Editing article</h1>
+   </header>
+   <article>
+      <%= form_for :post, url: '/posts/' + @post.slug, method: :patch do |f| %>
+      <div>
+         <% if @post.errors.any? %>
+         <div class="errors">
+            <h5>
+               <%= pluralize(@post.errors.count, "error") %> prohibited
+               this article from being saved:
+            </h5>
+            <ul class="errors-list">
+               <% @post.errors.full_messages.each do |msg| %>
+               <li><%= msg %></li>
+               <% end %>
+            </ul>
+         </div>
+         <% end %>
+         <div>
+            <%= f.label :title %>
+            <%= f.text_field :title, placeholder: "Modify title here" %>
+         </div>
+         <div>
+            <%= f.label :description %>
+            <%= f.text_field :description, placeholder: "Modify description here" %>
+         </div>
+         <div>
+            <%= f.label :content %>
+            <%= f.text_area :content, placeholder: "Modify content here", rows: 10%>
+         </div>
+         <div>
+            <%= f.check_box :published %>
+            <%= f.label :published, "Publish" %>
+         </div>
+      </div>
+      <ul class="actions">
+         <li>
+            <%= f.submit "Submit" %>
+         </li>
+      </ul>
+      <% end %>
+      <%= form_for :post, url: '/posts/' + @post.slug, method: :delete do |f| %>
+      <ul class="actions">
+         <li>
+            <%= f.submit "Destroy" %>
+         </li>
+      </ul>
+      <% end %>
+      <ul class="actions">
+         <li>
+            <%= link_to 'Back', root_url %>
+         </li>
+      </ul>
+   </article>
+</section>

@@ -1,0 +1,60 @@
+<% if @posts.any? %>
+<section>
+   <header>
+      <h1>
+         Latest Posts
+      </h1>
+   </header>
+</section>
+<% @posts.each do |p| %>
+<section>
+   <header>
+      <h4>
+         <%= p.title %>
+      </h4>
+      <p class="date">
+         <%= p.created_at.to_formatted_s(:long_ordinal)%>
+      </p>
+      <p>
+         <%= p.description %>
+      </p>
+   </header>
+   <footer>
+      <%= link_to "more...", "/posts/" + p.slug %>
+   </footer>
+</section>
+<% end %>
+<% elsif @search_param != nil %>
+<section>
+   <header>
+      <h1>
+         Query :
+         <%= @search_param %>
+      </h1>
+   </header>
+</section>
+<section>
+   <header>
+      <h4>
+         Didn't found anything from your request :(
+      </h4>
+   </header>
+   <footer>
+      Was there supposed to be something ?
+   </footer>
+</section>
+<% else %>
+<section>
+   <header>
+      <h4> Nothing here yet :( </h4>
+   </header>
+   <article>
+      <p>
+         Since the blog is new (or old, who cares ?), there is nothing to show yet, maybe an article in a few weeks, stay tuned.
+      </p>
+   </article>
+   <footer>
+      SOOOOOOOON..
+   </footer>
+</section>
+<% end %>

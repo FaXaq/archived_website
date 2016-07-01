@@ -1,0 +1,7 @@
+$xlarge : (min-width: 120.063em);
+$large : (min-width: 90.063em) and (max-width: 120em);
+$medium : (min-width: 64.063em) and (max-width: 90em) and (orientation portrait);
+$small : (min-width: 40.063em) and (max-width: 64em) and (orientation portrait);
+$xsmall : (max-width 40em) and (orientation portrait);
+
+$medium-lower : (max-width 90em);

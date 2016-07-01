@@ -1,0 +1,28 @@
+<section>
+   <header>
+      <h1>New Post</h1>
+      <%= render 'error_messages' %>
+   </header>
+   <article>
+      <%= form_for :post, url: posts_path do |f| %>
+      <div>
+         <%= f.text_field :title, placeholder: "Enter the title" %>
+      </div>
+      <div>
+         <%= f.text_field :description, placeholder: "Enter the description" %>
+      </div>
+      <div>
+         <%= f.text_area :content, placeholder: "Enter the article", rows: 15 %>
+      </div>
+      <div>
+         <%= f.check_box :published %>
+         <%= f.label :published, "Publish" %>
+      </div>
+      <ul class="actions">
+         <li>
+            <%= f.submit "Submit",  class: "button special" %>
+         </li>
+      </ul>
+      <% end %>
+   </article>
+</section>

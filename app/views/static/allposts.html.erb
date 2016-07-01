@@ -1,0 +1,28 @@
+<% if @posts.any? %>
+<section>
+   <header>
+      <h1>
+         All Posts
+      </h1>
+   </header>
+</section>
+<% @posts.each do |p| %>
+<%= link_to p.title, "/posts/" + p.slug %>
+<p><%= p.description + " - " + p.created_at.to_formatted_s(:long_ordinal) %></p>
+<hr/>
+<% end %>
+<% else %>
+<section>
+   <header>
+      <h4> Nothing here yet :( </h4>
+   </header>
+   <article>
+      <p>
+         Since the blog is new (or old, who cares ?), there is nothing to show yet, maybe an article in a few weeks, stay tuned.
+      </p>
+   </article>
+   <footer>
+      SOOOOOOOON..
+   </footer>
+</section>
+<% end %>
