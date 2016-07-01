@@ -11,6 +11,7 @@
 <p><%= p.description + " - " + p.created_at.to_formatted_s(:long_ordinal) %></p>
 <hr/>
 <% end %>
+<%= will_paginate @posts %>
 <% else %>
 <section>
    <header>

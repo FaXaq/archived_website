@@ -33,6 +33,9 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'redcarpet'
 gem 'rouge'
 
+#pagination
+gem 'will_paginate'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

@@ -18,9 +18,9 @@ class StaticController < ApplicationController
 
   def allposts
     if logged_in?
-      @posts = Post.all
+      @posts = Post.all.paginate(:page => params[:page], :per_page => 30)
     else
-      @posts = Post.where(published: true)
+      @posts = Post.where(published: true).paginate(:page => params[:page], :per_page => 30)
     end
   end
 end
