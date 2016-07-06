@@ -1,0 +1,37 @@
+<section>
+   <header class="presentation">
+      <h1>Contact :</h1>
+      <p>Markdown is allowed !</p>
+   </header>
+   <article>
+      <% if @errors != nil && @errors.count > 0 %>
+      <div class="errors">
+         <h5>
+            <%= pluralize(@errors.count, "error") %> prevented
+            this mail to be sent:
+         </h5>
+         <ul class="errors-list">
+            <% @errors.each do |msg| %>
+            <li><%= msg %></li>
+            <% end %>
+         </ul>
+      </div>
+      <% end %>
+      <%= form_tag("/contact",method: "post") do %>
+      <div>
+         <%= text_field_tag "name", @name, placeholder: "The police" %>
+      </div>
+      <div>
+         <%= email_field_tag "email", @email, placeholder: "whoopwhoop@dapolice.org" %>
+      </div>
+      <div>
+         <%= text_area_tag "body", @body, placeholder: "Message in a bottle", rows: 15 %>
+      </div>
+      <ul class="actions">
+         <li>
+            <%= submit_tag "Send it to me !",class: "button special" %>
+         </li>
+      </ul>
+      <% end %>
+   </article>
+</section>

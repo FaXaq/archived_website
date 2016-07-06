@@ -1,3 +1,7 @@
+@import "require/vars";
+@import "require/size";
+@import "breakpoint";
+
 /*
 Thx to https://alexpeattie.com/blog/github-style-syntax-highlighting-with-pygments for the line numbering
 */
@@ -28,7 +32,7 @@ pre > code:before {
   background: #eee;
   margin-right: 16px;
   padding: 2px 10px;
-  font-size: 13px;
+  font-size: 1em;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -47,4 +51,49 @@ pre > last-of-type:before {
 
 pre > only-of-type:before {
   padding: 10px;
+}
+
+/*
+ */
+
+
+
+//Pre & code
+
+code {
+    display:block;
+    margin: 0em 0.25em;
+    background: rgba(130, 130, 130, 0.1);
+    border:1px solid rgba(130, 130, 130, 0.3);
+    border-radius:5px;
+    font-family: $code-font-family;
+    font-size: $font-size * 0.85;
+    line-height: $line-height;
+    color:#3F3F3F;
+}
+
+pre {
+    margin: 1em 0.25em;
+    background: rgba(130, 130, 130, 0.1);
+    border:1px solid rgba(130, 130, 130, 0.3);
+    border-radius:5px;
+    font-size:0.85em;
+    code {
+        background: none;
+        border:none;
+        margin:0;
+        font-size:1em;
+    }
+}
+
+/*
+ responsive
+*/
+@include breakpoint($medium-lower) {
+    pre {
+        > code {
+            font-size:$font-size * 2;
+            line-height:$line-height;
+        }
+    }
 }

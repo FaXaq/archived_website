@@ -1,3 +1,7 @@
+@import "require/vars";
+@import "require/size";
+@import "breakpoint";
+
 table {
     margin:20px auto;
     color:grey;
@@ -31,4 +35,36 @@ table {
             }
         }
     }
+}
+
+@include breakpoint($medium-lower) {
+    table {
+    margin:20px auto;
+    color:grey;
+    width:100%;
+    text-align:center;
+    > thead {
+        > tr {
+            > th {
+                font-weight:bold;
+                font-size:$font-size * 2;
+                padding:0.3em;
+            }
+        }
+    }
+
+    > tbody {
+        > tr {
+            > th {
+                font-weight: bold;
+                font-size:$font-size * 2;
+                padding:0.3em;
+            }
+            > td {
+                font-size:$font-size * 2;
+                padding:0.3em;
+            }
+        }
+    }
+}
 }

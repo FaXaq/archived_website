@@ -9,9 +9,8 @@
       </li>
       <li class="element">
          <%= form_tag "/blog", method: :get do %>
-            <label for="search"><i class="fa fa-search"></i></label>
-            <%= text_field_tag :search, params[:search], placeholder:"Search", id:"search" %>
-            <% end %>
+         <%= text_field_tag :search, params[:search], placeholder:"Search", id:"search" %>
+         <% end %>
          </form>
       </li>
       <li class="element">
@@ -24,7 +23,25 @@
          <%= link_to "Blog", "/blog" %>
       </li>
       <li class="element">
-         <%= link_to "All posts", "/allposts" %>
+         <%= link_to "Contact", "/contact" %>
+      </li>
+      <li class="element socials">
+         <ul class="actions">
+            <li class="social">
+               <a href="https://fr.linkedin.com/in/marin-procureur-2a7b3662">
+                  <i class="fa fa-linkedin"></i>
+               </a>
+            </li>
+            <li class="social">
+               <a href="https://github.com/FaXaq">
+                  <i class="fa fa-github"></i>
+               </a>
+            </li><li class="social">
+               <a href="mailto:contact@norra.fr">
+                  <i class="fa fa-envelope"></i>
+               </a>
+            </li>
+         </ul>
       </li>
       <% if logged_in? %>
       <li class="element">

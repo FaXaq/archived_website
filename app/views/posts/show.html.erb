@@ -1,9 +1,9 @@
+<%= link_to 'Back', '/blog', class:'back' %>
+<% if logged_in? %>
+<%= link_to 'Edit', '/posts/' + @post.slug + "/edit", class:"edit" %>
+<% end %>
 <section>
    <header>
-      <% if logged_in? %>
-      <%= link_to 'Edit', '/posts/' + @post.slug + "/edit" %>
-      <% end %>
-      <%= link_to 'Back', '/blog' %>
       <h1>
          <%= @post.title %>
       </h1>

@@ -1,0 +1,52 @@
+#flash-list {
+    position:absolute;
+    top:20px;
+    right:20px;
+    > .flash {
+        border: 2px solid;
+        padding:20px;
+        background-color:white;
+        margin-bottom:20px;
+        max-width:350px;
+        &.hidden {
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s 0.3s, opacity 0.3s ease-in-out;
+        }
+        &.error:before {
+            content:"\f05b";
+        }
+        &.success:before {
+            content:"\f00c";
+        }
+        &.warning:before {
+            content:"\f12a";
+        }
+        &.info:before {
+            content:"\f129";
+        }
+        &:before{
+            font-size:2em;
+            display:inline-block;
+        }
+        > * {
+            display:inline-block;
+        }
+    }
+}
+.error {
+    border-color:red;
+    color:red;
+}
+.info {
+    border-color:blue;
+    color:blue;
+}
+.warning {
+    border-color:orange;
+    color:orange;
+}
+.success {
+    border-color:green;
+    color:green
+}

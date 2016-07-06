@@ -1,9 +1,12 @@
 @import "require/vars";
+@import "require/size";
+@import "breakpoint";
 
 //Global
 
 body {
     font-family: $font-family;
+    font-size:$font-size;
     line-height: $line-height;
 }
 
@@ -56,40 +59,21 @@ header {
         color: black;
         font-size: 1em;
     }
+
+    &:not(.presentation):after {
+        content:"";
+        display:block;
+        width:75%;
+        margin:50px auto;
+        height:1px;
+        background-color:black;
+    }
 }
 
 //Links
 
 a {
     color:initial;
-}
-
-//Pre & code
-
-code {
-    display:block;
-    margin: 0em 0.25em;
-    background: rgba(130, 130, 130, 0.1);
-    border:1px solid rgba(130, 130, 130, 0.3);
-    border-radius:5px;
-    font-family: $code-font-family;
-    font-size: $font-size * 0.85;
-    line-height: $line-height;
-    color:#3F3F3F;
-}
-
-pre {
-    margin: 1em 0.25em;
-    background: rgba(130, 130, 130, 0.1);
-    border:1px solid rgba(130, 130, 130, 0.3);
-    border-radius:5px;
-    font-size:0.85em;
-    code {
-        background: none;
-        border:none;
-        margin:0;
-        font-size:1em;
-    }
 }
 
 blockquote {
@@ -105,6 +89,114 @@ blockquote {
             font-family:"FontAwesome";
             font-size:1.5em;
             padding-right:10px;
+        }
+    }
+}
+
+a.back {
+    &:before {
+        content:"\f053";
+        font-family:"FontAwesome";
+        display:inline-block;
+        color:black;
+        margin-right:10px;
+    }
+}
+
+a.edit {
+    &:before {
+        content:"|";
+        display:inline-block;
+        color:black;
+        margin-right:10px&;
+    }
+}
+
+ul {
+    margin:25px;
+}
+
+table,blockquote,pre,img:not(.pp) {
+    margin-bottom:50px;
+}
+
+/*
+ responsive
+*/
+@include breakpoint($medium-lower) {
+    p,a {
+        line-height:$line-height * 0.7;
+        font-size:$font-size * 3;
+    }
+
+    li {
+        font-size:$font-size * 2.5;
+        line-height:$line-height * 1;
+    }
+
+    p > a {
+        font-size:$font-size;
+        line-height:inherit;
+    }
+
+    ul {
+        font-size:initial;
+    }
+
+    .element > a {
+        font-size:$font-size * 1.2;
+    }
+
+    h1 {
+        font-size: $font-size * 5;
+    }
+
+    h2 {
+        font-size: $font-size * 4.5;
+    }
+
+    h3 {
+        font-size: $font-size * 4;
+    }
+
+    h4 {
+        font-size: $font-size * 3.5;
+    }
+
+    h5 {
+        font-size: $font-size * 3;
+    }
+
+    h6 {
+        font-size: $font-size * 2.5;
+    }
+
+    header {
+        > p {
+            font-size:2em;
+        }
+        > p.date {
+            font-size:2em;
+        }
+        * {
+            line-height:$line-height * 2;
+        }
+    }
+
+    footer {
+        > p {
+            font-size:$font-size * 2;
+            line-height:$line-height;
+        }
+    }
+
+    #disqus_thread {
+        zoom:2;
+    }
+
+    input,textarea {
+        &:not([type="submit"]) {
+            zoom:2;
         }
     }
 }

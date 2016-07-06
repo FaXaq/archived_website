@@ -6,9 +6,9 @@ class Post < ActiveRecord::Base
   validates :content, presence: true
   def self.search(search)
     if search
-      where(published: true).where('title LIKE ?', "%#{search}%").reverse
+      where(published: true).where('title LIKE ?', "%#{search}%")
     else
-      where(published: true).last(5).reverse
+      where(published: true)
     end
   end
 end

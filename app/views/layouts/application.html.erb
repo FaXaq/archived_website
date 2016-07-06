@@ -13,6 +13,24 @@
             <%= yield %>
          </div>
       </div>
+      <ul id="flash-list">
+         <% if flash.count > 0 %>
+         <% flash.each do |k,m| %>
+         <li class="flash <%= k %>">
+            <p class="<%= k %>">
+               <%= m %>
+            </p>
+         </li>
+      <% end %>
+      <% end %>
+      </ul>
       <script id="dsq-count-scr" src="//norra.disqus.com/count.js" async></script>
+      <script type="text/javascript">
+         var e = document.getElementById("flash-list");
+         e.addEventListener("click",function(t) {
+         console.log(t);
+         t.target.classList.add("hidden");
+         });
+      </script>
    </body>
 </html>

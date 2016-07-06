@@ -1,51 +1,45 @@
+<% if logged_in? %>
+<%= link_to "New", "/posts/new" %>
+<% end %>
 <% if @posts.any? %>
 <section>
-   <header>
+   <header class="presentation">
+      <% if @search_param != nil %>
       <h1>
-         Latest Posts
+         Query : <%= @search_param %>
       </h1>
+      <% else %>
+      <h1>
+         All Posts
+      </h1>
+      <% end %>
    </header>
 </section>
 <% @posts.each do |p| %>
-<section>
-   <header>
-      <h4>
-         <%= p.title %>
-      </h4>
-      <p class="date">
-         <%= p.created_at.to_formatted_s(:long_ordinal)%>
-      </p>
-      <p>
-         <%= p.description %>
-      </p>
-   </header>
-   <footer>
-      <%= link_to "more...", "/posts/" + p.slug %>
-   </footer>
-</section>
+<%= link_to p.title, "/posts/" + p.slug %>
+<p><%= p.description + " - " + p.created_at.to_formatted_s(:long_ordinal) %></p>
+<hr/>
 <% end %>
+<%= will_paginate @posts %>
 <% elsif @search_param != nil %>
 <section>
-   <header>
+   <header class="presentation">
       <h1>
-         Query :
-         <%= @search_param %>
+         Searching for "<%= @search_param %>"
       </h1>
    </header>
-</section>
-<section>
-   <header>
+   <article>
       <h4>
          Didn't found anything from your request :(
       </h4>
-   </header>
+   </article>
    <footer>
       Was there supposed to be something ?
    </footer>
 </section>
 <% else %>
 <section>
-   <header>
+   <header class="presentation">
       <h4> Nothing here yet :( </h4>
    </header>
    <article>

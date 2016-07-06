@@ -4,9 +4,6 @@
 @import "require/vars";
 
 .nav {
-    @include breakpoint($medium-lower) {
-        size:150%;
-    }
     > .element {
         &:not(:last-child) {
         }
@@ -37,6 +34,32 @@
         padding:1em;
         text-align:right;
         text-transform:uppercase;
+        &.socials {
+            &:before{
+                content:"Socials :";
+                display:inline-block;
+                font-family:$font-family;
+            }
+            > ul {
+                margin:0px;
+                display:flex;
+                flex-direction:row;
+                justify-content:flex-end;
+                > li.social {
+                    font-size:inherit;
+                    margin-left:10px;
+                    &:before {
+                        content:"";
+                        display:none;
+                    }
+                    > a {
+                        &:hover {
+                            color:grey;
+                        }
+                    }
+                }
+            }
+        }
     }
     display:none;
 }
@@ -63,4 +86,39 @@
     space-wrap:no-wrap;
     font-style:italic;
     color:grey;
+}
+
+input#search {
+    content:"test";
+    &:before {
+        content:"\f002";
+        display:inline-block;
+        font-family:"FontAwesome";
+        color:black;
+        margin-right:10px;
+    }
+}
+
+
+/*
+ responsive
+*/
+
+@include breakpoint($medium-lower) {
+    #label-nav-checkbox {
+        font-size:2em;
+    }
+
+    .nav > * {
+        font-size:2em;
+    }
+
+    .nav-title {
+        font-size:1.5em;
+        line-height:1.5em;
+    }
+
+    .pp {
+        zoom:2;
+    }
 }

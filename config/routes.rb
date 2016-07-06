@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   delete 'logout'  => 'session#destroy'
   get 'blog' => 'static#blog'
   get 'aboutme' => 'static#aboutme'
-  get 'allposts' => 'static#allposts'
+  get 'contact' => 'static#contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -22,6 +22,9 @@ Rails.application.routes.draw do
   patch "/posts/:slug" => "posts#update"
   put "/posts/:slug" => "posts#update"
   delete "/posts/:slug" => "posts#destroy"
+
+  #contact
+  post 'contact' => 'static#send_contact_email'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
