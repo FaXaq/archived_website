@@ -13,17 +13,33 @@
             opacity: 0;
             transition: visibility 0s 0.3s, opacity 0.3s ease-in-out;
         }
-        &.error:before {
-            content:"\f05b";
+        &.error {
+            border-color:red;
+            color:red;
+            &:before {
+                content:"\f05b";
+            }
         }
-        &.success:before {
-            content:"\f00c";
+        &.success{
+            border-color:green;
+            color:green;
+            &:before {
+                content:"\f00c";
+            }
         }
-        &.warning:before {
+        &.warning{
+            border-color:orange;
+            color:orange;
+            &:before {
             content:"\f12a";
+            }
         }
-        &.info:before {
-            content:"\f129";
+        &.info{
+            border-color:blue;
+            color:blue;
+            &:before {
+                content:"\f129";
+            }
         }
         &:before{
             font-size:2em;
@@ -33,20 +49,4 @@
             display:inline-block;
         }
     }
-}
-.error {
-    border-color:red;
-    color:red;
-}
-.info {
-    border-color:blue;
-    color:blue;
-}
-.warning {
-    border-color:orange;
-    color:orange;
-}
-.success {
-    border-color:green;
-    color:green
 }

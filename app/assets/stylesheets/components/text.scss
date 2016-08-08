@@ -125,12 +125,12 @@ table,blockquote,pre,img:not(.pp) {
 */
 @include breakpoint($medium-lower) {
     p,a {
-        line-height:$line-height * 0.7;
-        font-size:$font-size * 3;
+        line-height:$line-height;
+        font-size:$font-size * 2.3;
     }
 
     li {
-        font-size:$font-size * 2.5;
+        font-size:$font-size * 2;
         line-height:$line-height * 1;
     }
 
@@ -190,13 +190,9 @@ table,blockquote,pre,img:not(.pp) {
         }
     }
 
-    #disqus_thread {
-        zoom:2;
-    }
-
     input,textarea {
         &:not([type="submit"]) {
-            zoom:2;
+            font-size:2em;
         }
     }
 }

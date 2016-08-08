@@ -2,7 +2,7 @@
 <%= link_to "New", "/posts/new" %>
 <% end %>
 <% if @posts.any? %>
-<section>
+<article>
    <header class="presentation">
       <% if @search_param != nil %>
       <h1>
@@ -14,7 +14,7 @@
       </h1>
       <% end %>
    </header>
-</section>
+</article>
 <% @posts.each do |p| %>
 <%= link_to p.title, "/posts/" + p.slug %>
 <p><%= p.description + " - " + p.created_at.to_formatted_s(:long_ordinal) %></p>
@@ -22,33 +22,33 @@
 <% end %>
 <%= will_paginate @posts %>
 <% elsif @search_param != nil %>
-<section>
+<article>
    <header class="presentation">
       <h1>
          Searching for "<%= @search_param %>"
       </h1>
    </header>
-   <article>
+   <section>
       <h4>
          Didn't found anything from your request :(
       </h4>
-   </article>
+   </section>
    <footer>
       Was there supposed to be something ?
    </footer>
-</section>
+</article>
 <% else %>
-<section>
+<article>
    <header class="presentation">
       <h4> Nothing here yet :( </h4>
    </header>
-   <article>
+   <section>
       <p>
          Since the blog is new (or old, who cares ?), there is nothing to show yet, maybe an article in a few weeks, stay tuned.
       </p>
-   </article>
+   </section>
    <footer>
       SOOOOOOOON..
    </footer>
-</section>
+</article>
 <% end %>

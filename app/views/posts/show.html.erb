@@ -2,7 +2,7 @@
 <% if logged_in? %>
 <%= link_to 'Edit', '/posts/' + @post.slug + "/edit", class:"edit" %>
 <% end %>
-<section>
+<article>
    <header>
       <h1>
          <%= @post.title %>
@@ -14,9 +14,9 @@
          <%= @post.description %>
       </p>
    </header>
-   <article>
+   <section>
       <%= markdown @post.content %>
-   </article>
+   </section>
    <footer>
       <p>
          Written with love... Oh and here are the comments :
@@ -39,4 +39,4 @@
       })();
    </script>
    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</section>
+</article>
