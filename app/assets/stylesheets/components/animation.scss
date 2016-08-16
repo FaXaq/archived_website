@@ -1,0 +1,7 @@
+a {
+    -webkit-transition:color 0.3s;
+    transition:color 0.3s;
+    &:hover {
+        color:grey;
+    }
+}
