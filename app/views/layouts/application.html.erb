@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>norra.fr</title>
-      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-      <%= csrf_meta_tags %>
-      <script src='https://www.google.com/recaptcha/api.js'></script>
-   </head>
-   <body>
-      <div class="container inner">
-         <%= render "nav" %>
-         <div class="main">
-            <%= yield %>
-         </div>
+  <head>
+    <title>norra.fr</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900,600,200" />
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
+  <body>
+    <div class="container inner">
+      <%= render "nav" %>
+      <div class="main">
+        <%= yield %>
       </div>
-      <ul id="flash-list">
-         <% if flash.count > 0 %>
-         <% flash.each do |k,m| %>
-         <li class="flash <%= k %>">
-            <p class="<%= k %>">
-               <%= m %>
-            </p>
-         </li>
+    </div>
+    <ul id="flash-list">
+      <% if flash.count > 0 %>
+      <% flash.each do |k,m| %>
+      <li class="flash <%= k %>">
+        <p class="<%= k %>">
+          <%= m %>
+        </p>
+      </li>
       <% end %>
       <% end %>
-      </ul>
-      <script id="dsq-count-scr" src="//norra.disqus.com/count.js" async></script>
-      <script type="text/javascript">
-         var e = document.getElementById("flash-list");
-         e.addEventListener("click",function(t) {
-         console.log(t);
-         t.target.classList.add("hidden");
-         });
-      </script>
-   </body>
+    </ul>
+    <script id="dsq-count-scr" src="//norra.disqus.com/count.js" async></script>
+    <script type="text/javascript">
+      var e = document.getElementById("flash-list");
+      e.addEventListener("click",function(t) {
+      console.log(t);
+      t.target.classList.add("hidden");
+      });
+    </script>
+  </body>
 </html>
