@@ -27,7 +27,11 @@ class StaticController < ApplicationController
     @name = params[:name]
     @body = params[:body]
     @email = params[:email]
+    @captcha = params[:"g-recaptcha-response"]
     @errors = Array.new()
+    if @captcha == nil || @captcha == ""
+      @errors.push("Captcha not filled")
+    end
     if @name == nil || @name == ""
       @errors.push("Name cannot be blank, please fill your name")
     end

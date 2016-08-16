@@ -6,8 +6,8 @@ Rails.application.initialize!
 
 ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.smtp_settings = {
-  :user_name => ENV["NORRA_MAIL_ADD"],
-  :password => ENV["NORRA_MAIL_PWD"],
+  :user_name => "contact@norra.fr",
+  :password => "Azerty123!!/",
   :domain => "norra.fr",
   :address => 'SSL0.OVH.NET',
   :port => 465,

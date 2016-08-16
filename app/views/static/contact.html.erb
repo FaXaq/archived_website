@@ -28,9 +28,12 @@
          <%= text_area_tag "body", @body, placeholder: "Message in a bottle", rows: 15 %>
       </div>
       <ul class="actions">
-         <li>
-            <%= submit_tag "Send it to me !",class: "button special" %>
-         </li>
+        <li>
+          <div style="margin:auto;" class="g-recaptcha" data-sitekey="6LfNIycTAAAAAAlEtQIm4fCRARqkUylZ505IQ9KH"></div>
+        </li>
+        <li>
+          <%= submit_tag "Send it to me !",class: "button special" %>
+        </li>
       </ul>
       <% end %>
    </article>
