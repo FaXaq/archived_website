@@ -13,6 +13,10 @@ class PostsController < ApplicationController
     else
       render_403
     end
+    #if md required
+    if params[:format] != nil
+      render :layout => false
+    end
   end
 
   def new

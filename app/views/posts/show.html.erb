@@ -1,3 +1,9 @@
+<% if params[:format].eql? "md" %>
+<%= simple_format @post.title %>
+<%= simple_format @post.created_at.to_formatted_s(:long_ordinal)%>
+<%= simple_format @post.description %>
+<%= simple_format @post.content %>
+<% else %>
 <%= link_to 'Back', '/blog', class:'back' %>
 <% if logged_in? %>
 <%= link_to 'Edit', '/posts/' + @post.slug + "/edit", class:"edit" %>
@@ -40,3 +46,4 @@
    </script>
    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </article>
+<% end %>

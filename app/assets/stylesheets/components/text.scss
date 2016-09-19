@@ -14,6 +14,14 @@ body {
     text-align:justify;
 }
 
+section {
+    > p {
+        padding:.5em 0em;
+    }
+}
+
+
+
 
 //headers
 
@@ -125,13 +133,13 @@ table,blockquote,pre,img:not(.pp) {
 */
 @include breakpoint($medium-lower) {
     p,a {
-        line-height:$line-height;
+        line-height:$line-height*11/20;
         font-size:$font-size * 2.3;
     }
 
     li {
         font-size:$font-size * 2;
-        line-height:$line-height * 1;
+        line-height:$line-height*3/4;
     }
 
     p > a {
