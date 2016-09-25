@@ -120,7 +120,7 @@ a.edit {
     }
 }
 
-ul {
+ul, ol {
     margin:25px;
 }
 
@@ -133,7 +133,7 @@ table,blockquote,pre,img:not(.pp) {
 */
 @include breakpoint($medium-lower) {
     p,a {
-        line-height:$line-height*11/20;
+        line-height:$line-height*3/4;
         font-size:$font-size * 2.3;
     }
 
