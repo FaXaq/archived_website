@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   get 'blog' => 'static#blog'
   get 'aboutme' => 'static#aboutme'
   get 'contact' => 'static#contact'
+  get 'resume' => 'static#resume'
+  get 'projects' => 'static#projects'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
