@@ -1,0 +1,21 @@
+@import "breakpoint";
+@import "require/size";
+@import "require/vars";
+
+.main > .resume {
+    .pp {
+        display:inline-block;
+        + * {
+            display:inline-block;
+        }
+    }
+}
+
+@include breakpoint("only print") {
+    .left-pan {
+        display:none;
+    }
+    .main {
+        font-size:$font-size/2;
+    }
+}
