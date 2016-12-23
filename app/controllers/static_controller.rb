@@ -16,6 +16,12 @@ class StaticController < ApplicationController
   def aboutme
   end
 
+  def resume
+  end
+
+  def projects
+  end
+
   def contact
     @name = ""
     @body = ""
