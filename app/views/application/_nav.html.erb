@@ -5,13 +5,11 @@
       <li class="element">
          <%= image_tag "profile.png", class:"pp" %>
          <p class="nav-title">Marin Procureur</p>
-         <p class="nav-subtitle">Developer & Guitar lover</p>
       </li>
       <li class="element">
          <%= form_tag "/blog", method: :get do %>
          <%= text_field_tag :search, params[:search], placeholder:"Search", id:"search" %>
          <% end %>
-         </form>
       </li>
       <li class="element">
          <%= link_to "Home", root_url %>
@@ -23,7 +21,13 @@
          <%= link_to "Blog", "/blog" %>
       </li>
       <li class="element">
+         <%= link_to "Resume", "/resume" %>
+      </li>
+      <li class="element">
          <%= link_to "Contact", "/contact" %>
+      </li>
+      <li class="element">
+         <%= link_to "Projects", "/projects" %>
       </li>
       <li class="element socials">
          <ul class="actions">
