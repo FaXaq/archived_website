@@ -26,15 +26,15 @@ section {
 //headers
 
 h1,h2,h3,h4,h5,h6{
-    line-height: $line-height;
+    line-height: $line-height/1.25;
 }
 
 h1 {
-    font-size: $font-size * 3;
+    font-size: $font-size * 2.5;
 }
 
 h2 {
-    font-size: $font-size * 2.5;
+    font-size: $font-size * 2.25;
 }
 
 h3 {
@@ -52,6 +52,7 @@ h5 {
 h6 {
     font-size: $font-size * 1.25;
 }
+
 
 header {
     > h1,h2,h3,h4,h5,h6 {
@@ -101,6 +102,16 @@ blockquote {
     }
 }
 
+ul, ol {
+    margin:25px;
+}
+
+table,blockquote,pre,img:not(.pp) {
+    margin-bottom:50px;
+}
+
+//buttons
+
 a.back {
     &:before {
         content:"\f053";
@@ -116,91 +127,26 @@ a.edit {
         content:"|";
         display:inline-block;
         color:black;
-        margin-right:10px&;
+        margin-right:10px;
     }
 }
 
-ul, ol {
-    margin:25px;
+a.download {
+    &:before {
+        cursor:pointer;
+        content:"\f019";
+        font-family:"FontAwesome";
+        display:inline-block;
+        color:black;
+    }
 }
 
-table,blockquote,pre,img:not(.pp) {
-    margin-bottom:50px;
-}
-
-/*
- responsive
-*/
-@include breakpoint($medium-lower) {
-    p,a {
-        line-height:$line-height*3/4;
-        font-size:$font-size * 2.3;
-    }
-
-    li {
-        font-size:$font-size * 2;
-        line-height:$line-height*3/4;
-    }
-
-    p > a {
-        font-size:$font-size;
-        line-height:inherit;
-    }
-
-    ul {
-        font-size:initial;
-    }
-
-    .element > a {
-        font-size:$font-size * 1.2;
-    }
-
-    h1 {
-        font-size: $font-size * 5;
-    }
-
-    h2 {
-        font-size: $font-size * 4.5;
-    }
-
-    h3 {
-        font-size: $font-size * 4;
-    }
-
-    h4 {
-        font-size: $font-size * 3.5;
-    }
-
-    h5 {
-        font-size: $font-size * 3;
-    }
-
-    h6 {
-        font-size: $font-size * 2.5;
-    }
-
-    header {
-        > p {
-            font-size:2em;
-        }
-        > p.date {
-            font-size:2em;
-        }
-        * {
-            line-height:$line-height * 2;
-        }
-    }
-
-    footer {
-        > p {
-            font-size:$font-size * 2;
-            line-height:$line-height;
-        }
-    }
-
-    input,textarea {
-        &:not([type="submit"]) {
-            font-size:2em;
-        }
+a.share {
+    &:before {
+        content:"\f1e0";
+        cursor:pointer;
+        font-family:"FontAwesome";
+        display:inline-block;
+        color:black;
     }
 }

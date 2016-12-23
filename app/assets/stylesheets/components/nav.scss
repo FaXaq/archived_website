@@ -7,13 +7,6 @@
     > .element {
         &:not(:last-child) {
         }
-        > img.pp {
-            border-radius:50%;
-            height:100px;
-            width:100px;
-            padding:2px;
-            border:1px solid grey;
-        }
         > form {
             display:inline-block;
             margin:auto;
@@ -35,11 +28,6 @@
         text-align:right;
         text-transform:uppercase;
         &.socials {
-            &:before{
-                content:"Socials :";
-                display:inline-block;
-                font-family:$font-family;
-            }
             > ul {
                 margin:0px;
                 display:flex;
@@ -105,20 +93,7 @@ input#search {
 */
 
 @include breakpoint($medium-lower) {
-    #label-nav-checkbox {
-        font-size:2em;
-    }
-
-    .nav > * {
-        font-size:2em;
-    }
-
-    .nav-title {
-        font-size:1.5em;
-        line-height:1.5em;
-    }
-
-    .pp {
-        zoom:2;
+    .nav > .element {
+        padding:.1em;
     }
 }

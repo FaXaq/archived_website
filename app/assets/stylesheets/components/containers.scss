@@ -21,6 +21,30 @@
     padding:1em 2em;
     overflow: auto;
     width:100%;
+    article {
+        > header {
+            margin-bottom:10px;
+        }
+        > section {
+            padding-top:1em;
+        }
+        > footer {
+
+            &:before {
+                content:"";
+                display:block;
+                height:1px;
+                background:grey;
+                width:75%;
+                text-align:center;
+                margin: 20px auto
+            }
+
+            font-style:italic;
+            text-align:right;
+        }
+        padding:3em 1em 0em;
+    }
 }
 
 .left-pan {
@@ -30,4 +54,10 @@
     border-right:1px solid grey;
     margin:1em 0em;
     padding:1em;
+}
+
+@include breakpoint($medium-lower) {
+    .main > article {
+        overflow-x:hidden;
+    }
 }
