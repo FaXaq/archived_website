@@ -7,11 +7,13 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div class="container inner">
       <%= render "nav" %>
-      <div class="main">
+      <%= render "actions" %>
+      <main class="main">
         <%= yield %>
       </div>
     </div>
