@@ -68,8 +68,11 @@ header {
         color: black;
         font-size: 1em;
     }
+}
 
-    &:not(.presentation):after {
+div.separator {
+    width:100%;
+    &.h:after {
         content:"";
         display:block;
         width:75%;

@@ -9,13 +9,24 @@
             display:inline-block;
         }
     }
+
+    b {
+        text-transform:bold;
+    }
 }
 
 @include breakpoint("only print") {
+    body {
+        text-align:justify;
+        font-size:$font-size/2;
+        line-height:130% !important;
+    }
     .left-pan {
         display:none;
+        overflow:none;
     }
     .main {
         font-size:$font-size/2;
+        overflow:initial;
     }
 }
