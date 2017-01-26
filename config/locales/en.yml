@@ -21,3 +21,260 @@
 
 en:
   hello: "Hello world"
+  static:
+    resume:
+      age: "22yo"
+      name: "Marin Procureur"
+      function: "Developer"
+      contact: "Contact"
+      or: "or"
+      today: "Today"
+      aboutme: "About me"
+      about:
+        p1_html: "<p>Passionate about Software & Web Development and the knowledge sharing that is implied in it, I am looking for a professional experience in London or Paris from 1st of April until end of October 2017 (and more if suited).</p>"
+        p2_html: "<p>Even though I am interested by the technical side of IT I do not forget the human side. This is why during the last two years I have helped at first as a teacher and now as co-director of studies a project called <a href='http://blank.bellevillecitoyenne.fr'>_blank</a>. It is a social web development school based in Belleville neighborhood in Paris, France.</p>"
+        p3_html: "<p>I'm mostly a self-taught developer (except for the programming guidelines and concepts). I learned from making projects both alone and with co-workers and JavaScript is my predilection programming language. I'm also finishing my Master of Science in CS cursus at Supinfo International University. It provides me general knowledge about all aspects of IT (development, law, project management, network, system administration, etc.)</p>"
+      xp: "Experiences"
+      experiences:
+        blank:
+          title1: "2015/2016 : Web development Teacher (HTML, CSS, Javascript)."
+          list1_html:
+                "<ul>
+                    <li>
+                        Teaching to apprentices taken out from regular school.
+                    </li>
+                    <li>
+                        Professional and scholastic re-integration.
+                    </li>
+                    <li>
+                        Training took place every evening from 7pm to 9pm each tuesday and thurday during 4 months.
+                    </li>
+                    <li>
+                        We had 3 regular students and over 10 non-regular ones.
+                    </li>
+                </ul>"
+          p1_html:
+                "<p>
+                    Since last year we made a lot of changes and improved seriousness of the training.
+                </p>"
+          title2: "2016/2017 : Co-Director of Studies"
+          list2_html:
+                "<ul>
+                    <li>
+                        All content created are available here : <a href='https://github.com/blank-project/_blank'>https://github.com/blank-project/_blank</a>.
+                    </li>
+                    <li>
+                        Teaching to apprentices taken out from regular school (mondays and tuesdays from 1pm to 9pm).
+                    </li>
+                    <li>
+                        Writing of classes about web essentials (HTML,CSS,Javascript,PHP,SQL)
+                    </li>
+                    <li>
+                        Stepping up the frequency of classses. We went from 4h per week to 24h per week.
+                    </li>
+                    <li>
+                        This involved creation of a planning and rigour regarding the educational content and technologies to deploy classes (moodle, github, reveal.js).
+                    </li>
+                    <li>
+                        Besides we have been recognized as a 'Grand École du Numérique' by the french administration.
+                    </li>
+            </ul>"
+          p2_html:
+                "<p>
+                  Today, we have 12 regular students willing to come every monday and tuesday from 1pm to 9pm and every friday from 10am (not always !) to 8pm to take our classes and learn web development.
+                </p>"
+        enioka:
+          title1: "2014 : Intern."
+          list1_html:
+                "<ul>
+                    <li>
+                        Frontend vanilla JavaScript development on a modeling tool. No framework except use of inheritance.js, go.js, jQuery and jQuery plugins when needed.
+                    </li>
+                    <li>
+                        The development took place on a web application named 'modeler'. It used data to model complete Information Systems and help resolve complex issues related to either its understanding, failure, upgrade, migration, etc..
+                    </li>
+                </ul>"
+          title2: "2014 / 2015 : Apprentice. 2015 / 2016 : Consultant and Web developer."
+          list2_html:
+            "<ul>
+                <li>
+                    Deployment and maintenance of the modeler at different client places (small, medium and big companies).
+                </li>
+                <li>
+                    Map several informations systems on four plans (functionnal, applicative, infrastructure, and process) into the modeler.
+                </li>
+                <li>
+                    Specific development for several clients (including special maping, special views and update of modeler core).
+                </li>
+                <li>
+                    Part of the modeler team creating a road map for the modeler web application.
+                </li>
+                <li>
+                    Design enhancement of the modeler core. And thoughts about design issues in the modeler core.
+                </li>
+            </ul>"
+          title3: "2015 / 2016 : Web developer."
+          list3_html:
+                "<ul>
+                    <li>
+                        Creation of a matrix data representation librabry (called ij.js) for the company. It can be used in or out of the modeler and is available on github : <a href='https://github.com/enioka/ij.js' >https://github.com/enioka/ij.js</a>
+                    </li>
+                    <li>
+                        Use of this librabry to create a matrix view in the 'modeler'.
+                    </li>
+                </ul>"
+        servier:
+          title1: "Intern."
+          list1_html:
+                "<ul>
+                    <li>
+                        Development of a JavaScript web based mobile application with persistent storage. This application is used to render data charts with d3.js taking data different data sources and generating charts on the fly.
+                    </li>
+                    <li>
+                        Technological surveillance on chart javascript libraries.
+                    </li>
+                </ul>"
+        docteursouris:
+          title1: "Area Manager (Hôpital Necker & CHU Bicêtre)"
+          list1_html:
+                "<ul>
+                    <li>
+                        Recovery of PCs used by companies and taking those to children in hospitals.
+                    </li>
+                    <li>
+                        Support, and securing of Windows PCs.
+                    </li>
+                    <li>
+                        Deployment of an Open Wifi in two hospitals.
+                    </li>
+                </ul>"
+      projects:
+        blank:
+          title1: "Paris - Belleville - Social Web development School"
+          content_html:
+                "<p>
+                    At first this social school was a project but it has become more than that. Now it is my job until April 2017.
+                </p>"
+        shield:
+          title1: "Paris - Gamer association"
+          content_html:
+                "<p>
+                    With friends we have created an association for gamers. Including activities, LANs, going to exhibits, streaming, conferencies, etc.
+                </p>"
+        ijjs:
+          title1: "Matrix data rendering - JavaScript (inheritance.js, gulp, jasmine)"
+          content_html:
+                "<p>
+                    During my internship at enioka they offered me the possibility to create a library. I chose to create one in JavaScript. It made me understand globally how to design a project efficiently. This was a slow process but I am glad I did it. The result is disappointing for me, but that was really worth it and I know where I made my mistakes. One day, when I have the time, I will take it back from scratch and do it the way it should have been done.
+                </p>"
+        syc:
+          title1: "Search Engine - C++"
+          content_html:
+                "<p>
+                    During my studies, there was a project I really enjoyed : A search engine. This work took place a while ago. I worked alone on the crawler part. It had to gather HTML, parse it, extract keywords, parse link and manage the queue for the spiders robots. During this project I encountered problems like : How to communicate with other applications (like the backend, the database, etc.) and algorithm efficiency.
+                </p>
+                <p>
+                    I am ashamed, but this took when I started using github & linux so commit under username 'root' are from me...
+                </p>"
+      training:
+        title: "Training and Competencies"
+        subtitle1: "Training"
+        subtitle2: "Competencies"
+        trainings:
+          training1_html:
+                "<p>
+                    I'm still studying at Supinfo International University - Paris. I will attend to my final examinations on october 2017 and obtain a Master of Science 2 : Expert in IT and Information Systems.
+                </p>"
+        competencies:
+          p1_html:
+                "<p>
+                    During my studies I have gathered good competencies in :
+                </p>"
+          list1_html:
+                "<ul>
+                    <li>
+                        Programming concepts (variables, control structures, functions, OOP, algorithms, patterns, separation of concerns, TDD).
+                    </li>
+                    <li>
+                        Vanilla JavaScript
+                    </li>
+                    <li>
+                        HTML / CSS
+                    </li>
+                    <li>
+                        Application Design and conception
+                    </li>
+                    <li>
+                        Linux & Emacs !
+                    </li>
+                </ul>"
+          p2_html:
+                "<p>
+                    Moreover I have some bases that I am willing to develop in :
+                </p>"
+          list2_html:
+                "<ul>
+                    <li>
+                        C / C++ concepts (projects done : Choplifter-like game written with SDL in C language & Search engine core written in C++).
+                    </li>
+                    <li>
+                        Go (project done : website to transcode videos).
+                    </li>
+                    <li>
+                        Rust
+                    </li>
+                    <li>
+                        Network (CCNA 1 level)
+                    </li>
+                    <li>
+                        Virtualization (and problematics associated : ByoD, security, App publishing, VDI)
+                    </li>
+                    <li>
+                        PHP
+                    </li>
+                    <li>
+                        Python 2 (& 3)
+                    </li>
+                    <li>
+                        DataBases (and their differencies : SQL, NoSQL)
+                    </li>
+                    <li>
+                        Ruby & Ruby on Rails (norra.fr is made with RoR)
+                    </li>
+                </ul>"
+      more:
+        title: "More"
+        subtitle1: "What do I want ?"
+        content1_html:
+                "<p>
+                    I am currently looking for a professional experience in London or Paris from April to October 2017 (at least).
+                </p>"
+        subtitle2: "What am I willing to do ?"
+        content2_html:
+                "<p>
+                    I can improve my English (as a french guy it is sometimes hard, and I know I make mistakes).
+                </p>
+                <p>
+                    If my competencies are not what you need, as I am mostly self taught I can always learn new things if the feeling is there. We just need to discuss that.
+                </p>
+                <p>
+                    As I am still in Paris, I can move to London to meet if you want. I am willing to move even if you're in Paris ! And obviously if you want to work with me I will be moving to London for the time of the internship.
+                </p>"
+        subtitle3: "My main traits ?"
+        content3_html:
+                "<p>
+                    Motivated, always learning, etc. But really ? I like to think before doing things, and I need to be in a environment that suits me to be effective.
+                </p>
+                <p>
+                    I know how to search on the internet.
+                </p>"
+        subtitle4: "Some of my code ?"
+        content4_html:
+                "<p>
+                    If you want samples of my code, you can check my github : <a href='https://github.com/FaXaq'>https://github.com/FaXaq</a> or mail me.
+                </p>"
+        subtitle5: "My hobbies"
+        content5_html:
+                "<p>
+                    I play guitar and I play guitar, and sometimes I start a new project ! Oh well and I'm a gamer (ex WoW, ex SC2, and now Overwatch).
+                </p>"

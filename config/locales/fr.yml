@@ -1,0 +1,259 @@
+fr:
+  hello: "Hello world"
+  static:
+    resume:
+      age: "22 ans"
+      name: "Marin Procureur"
+      function: "Développeur"
+      contact: "Contacts"
+      or: "ou"
+      today: "Aujourd'hui"
+      aboutme: "À propos de moi"
+      about:
+        p1_html: "<p>Passionné par le développement web et logiciel ainsi que le partage de connaissances qui en résulte je recherche une expérience professionnelle à Londres ou Paris du 1er Avril au 31 Octobre 2017 (ou plus si affinités).</p>"
+        p2_html: "<p>Même si je suis intéressé par la technique lié aux systèmes d'information je n'oublie pas le côté humain. C'est pourquoi durant les deux dernières années j'ai aidé dans un premier temps en tant que professeur et maintenant en tant que co-directeur pédagogique un projet appelé <a href='http://blank.bellevillecitoyenne.fr'>_blank</a>. C'est une école de développement web sociale et solidaire basée dans le quartier de Belleville à Paris.</p>"
+        p3_html: "<p>Je suis un développeur autodidacte (excepté sur les bases de la programmation ainsi que ses concepts). J'ai appris à développer en faisaint des projets pesronnels ainsi que professionels et le JavaScript est mon langage de prédilection. Je termine actuellement un cursus de Master of Science en Système d'Information à Supinfo International University. Cela me donnes les connaissances générales de tous les aspects des systèmes d'information (développement, gestion de projet, droit, réseau, administration système, etc.) </p>"
+      xp: "Experiences"
+      experiences:
+        blank:
+          title1: "2015/2016 : Professeur de développement Web (HTML, CSS, Javascript)."
+          list1_html:
+                "<ul>
+                    <li>
+                        Enseignement aux apprenants.
+                    </li>
+                    <li>
+                        Réintégration professionnelle et scolaire.
+                    </li>
+                    <li>
+                        Les horaires de cours étaient tous les jeudi et mardi de 19h jusqu'à 21h pendant 4 mois.
+                    </li>
+                    <li>
+                        Nous avions 3 étudiants réguliers et environs 10 non réguliers.
+                    </li>
+                </ul>"
+          p1_html:
+                "<p>
+                    Depuis l'année dernière nous avons fait énormément de changements et amélioré le sérieux de la formation.
+                </p>"
+          title2: "2016/2017 : Co-Responsable Pédagogique"
+          list2_html:
+                "<ul>
+                    <li>
+                        Tout le contenu créé est disponible ici : <a href='https://github.com/blank-project/_blank'>https://github.com/blank-project/_blank</a>.
+                    </li>
+                    <li>
+                        Enseignement aux apprenants tous les lundi et mardi de 13h à 21h.
+                    </li>
+                    <li>
+                        Écriture des cours à propos des essentiels de la programmation web (HTML,CSS,Javascript,PHP,SQL)
+                    </li>
+                    <li>
+                        Augmentation du rythme des cours de 4h / semaine à 24h / semaine.
+                    </li>
+                    <li>
+                        À cause de l'augmentation du rythme nous avons utilisé différents outils et différents librairies (reveal.js, moodle, github, etc.) pour faciliter le suivi.
+                    </li>
+                    <li>
+                        Nous avons été labellisé 'Grande École du Numérique' par l'administration française.
+                    </li>
+            </ul>"
+          p2_html:
+                "<p>
+                  Aujourd'hui nous avons 13 apprenants qui viennent chaque semaine le lundi et mardi de 13h à 21h et le vendredi de 10h (pas toujours !) à 20h pour prendre des cours et apprendre le développement web.
+                </p>"
+        enioka:
+          title1: "2014 : Stagiaire."
+          list1_html:
+                "<ul>
+                    <li>
+                        Développement Frontend en JavaScript vanilla sur un outil de modélisation. Pas de framework utilisé excepté inheritance.js, go.js jQuery et des plugins jQuery quand nous en avions besoin.
+                    </li>
+                    <li>
+                        Le développement était sur une application web appellée le 'modeler'. Cette dernière utilisait des données recueillies pour modéliser un système d'information complet et aider à la résolution de problèmes complexes liés à sa compréhension, ses echecs, mises à jour, migrations, etc.
+                    </li>
+                </ul>"
+          title2: "2014 / 2015 : Apprenti. 2015 / 2016 : Consultant et Développeur Web."
+          list2_html:
+            "<ul>
+                <li>
+                    Déploiement et maintenant du 'modeler' chez différents clients (petites, moyennes et grosses entreprises).
+                </li>
+                <li>
+                    Récupération et différentes informations sur les systèmes d'information selon quatre plans (fonctionnel, applicatif, infrastructure et processus) et insertion dans le 'modeler'.
+                </li>
+                <li>
+                    Développement spécifique pour des clients (incluant intégration spéciale de données, nouvelles vues, et mise à jour du coeur du 'modeler').
+                </li>
+                <li>
+                    Etude et création de la road map pour le 'modeler' en faisant partie de la 'modeler team'.
+                </li>
+                <li>
+                    Amélioartion du design du coeur du 'modeler'. Reflexion à propos des problèmes liés au coeur du 'modeler'.
+                </li>
+            </ul>"
+          title3: "2015 / 2016 : Développeur Web."
+          list3_html:
+                "<ul>
+                    <li>
+                        Création d'une librairie de représentation de données sous forme matricielle (appellée ij.js). Elle peut-être utilisée dans ou à l'extérieur du modeler et est disponible sur github : <a href='https://github.com/enioka/ij.js' >https://github.com/enioka/ij.js</a>
+                    </li>
+                    <li>
+                        Utilisation de cette librairie pour créer une vue spécifique dans le 'modeler'.
+                    </li>
+                </ul>"
+        servier:
+          title1: "Stagiaire."
+          list1_html:
+                "<ul>
+                    <li>
+                        Développement d'une application mobile basée sur les technologies web avec persistances de données dans le navigateur. Cette application est utilisée pour afficher des graphiques avec d3.js en prenant différentes sources de données et générant les graphiques à la volée.
+                    </li>
+                    <li>
+                        Veille technologique sur les librairies JavaScript offrant la possibilité de faire des graphiques.
+                    </li>
+                </ul>"
+        docteursouris:
+          title1: "Responsable de zone (Hôpital Necker & CHU Bicêtre)"
+          list1_html:
+                "<ul>
+                    <li>
+                        Récupération et remise en service d'anciens ordinateurs utilisés dans les entreprises pour les enfants des hôpitaux.
+                    </li>
+                    <li>
+                        Support, et sécurisation de PC Windows.
+                    </li>
+                    <li>
+                        Déploiement d'un wifi ouvert et gratuit dans les deux hôpitaux.
+                    </li>
+                </ul>"
+      projects:
+        blank:
+          title1: "Paris - Belleville - École de Développement Web sociale et solidaire"
+          content_html:
+                "<p>
+                    Au début cette école était un projet mais c'est maintenant devenu quelque chose de plus grand. J'y travaille jusqu'à Avril 2017.
+                </p>"
+        shield:
+          title1: "Paris - Assiciation de gamers"
+          content_html:
+                "<p>
+                    Avec des amis nous avons créé une association de gamers. Cela inclu des activités comme : LANs, faire des événements, du streaming, faire des conférences, aller à des événements, etc.
+                </p>"
+        ijjs:
+          title1: "Rendu de données sous forme matricielle - JavaScript (inheritance.js, gulp, jasmine)"
+          content_html:
+                "<p>
+                    Pendant mon stage à enioka, ils m'ont offert la possibilité de créer ma bibliothèque. J'ai croisi d'en créer une en JavaScript. Cela m'a permis de copmprendre globalement comment designer un projet de fond en comble et de manière efficace. C'était un processus long et difficile et je suis fier de l'avoir fait. Le resultat de mon point de vue est décevant. Aujourd'hui j'ai compris et j'ai beaucoup appris de ce projet, je sais où j'ai fait les plus grosses erreurs, et surtout je sais quelles erreurs ne plus faire ! Un jour, quand j'aurais du temps je reprendrait cette bibliothèque de zéro et je la développerai comme elle aurait du être.
+                </p>"
+        syc:
+          title1: "Moteur de recherche intranet - C++"
+          content_html:
+                "<p>
+                    Durant mes études, il y a eu un projet que j'ai véritablement apprecié : La création de moteur de recherche en intranet. C'était il y a maintenant un bout de temps. J'ai travaillé sur la partie du 'crawler'. Elle devait récupérer le contenu des pages web (HTML), le parser, extraires les mots clés, les mots les plus utilisés, extraires les liens, et gérer la queue de robots 'spider' qui s'occupaient d'aller récupérer d'autres pages. Durant ce projet je me suis posé certaines problématiques importantes, comme : comment communiquer entre applications (backend, database, etc.) et être algorithmiquement efficace.
+                </p>
+                <p>
+                    J'ai honte mais cela remontant à une époque révolu (quand je commençais à utiliser github & linux), donc les commits sous le nom d'utilisateur 'root' sont de moi...
+                </p>"
+      training:
+        title: "Formation & Compétences"
+        subtitle1: "Formation"
+        subtitle2: "Compétences"
+        trainings:
+          training1_html:
+                "<p>
+                    Je suis en cours d'étude à Supinfo International University - Paris. Je passe mon examen final en octobre 2017 en vue d'un Master of Science 2 : Expert en Informatique et Système d'Information.
+                </p>"
+        competencies:
+          p1_html:
+                "<p>
+                    Durant mes études j'ai acquis de bonnes compétences en :
+                </p>"
+          list1_html:
+                "<ul>
+                    <li>
+                        Concepts de programmation (variables, structures de contrôle, functions, POO, algorithmique, patterns, separation of concerns, TDD).
+                    </li>
+                    <li>
+                        Vanilla JavaScript
+                    </li>
+                    <li>
+                        HTML / CSS
+                    </li>
+                    <li>
+                        Design d'application et conception
+                    </li>
+                    <li>
+                        Linux & Emacs !
+                    </li>
+                </ul>"
+          p2_html:
+                "<p>
+                    De plus j'ai quelques bases (voir plus !) que je suis prêt à améliorer en :
+                </p>"
+          list2_html:
+                "<ul>
+                    <li>
+                        concepts en C / C++ (projets effectués : jeu Choplifter-like written écrit avec la  SDL en langage C & coeur d'un moteur de rechercheécrit en C++ C++).
+                    </li>
+                    <li>
+                        Go (projet effectué : Site internet proposant une CGI vers ffmpeg pour transcoder des vidéos).
+                    </li>
+                    <li>
+                        Rust
+                    </li>
+                    <li>
+                        Réseau (CCNA 1 level)
+                    </li>
+                    <li>
+                        Virtualisation (et problématiques associées : ByoD, sécurité, Publication d'applications, VDI)
+                    </li>
+                    <li>
+                        PHP
+                    </li>
+                    <li>
+                        Python 2 (& 3)
+                    </li>
+                    <li>
+                        Bases de données (Et leurs différences)
+                    </li>
+                    <li>
+                        Ruby & Ruby on Rails (norra.fr est fait avec !)
+                    </li>
+                </ul>"
+      more:
+        title: "Plus !"
+        subtitle1: "Qu'est-ce que je veux ?"
+        content1_html:
+                "<p>
+                    Je suis à la recherche d'une expérience professionnelle à Londres ou Paris d'Avril à Octobre 2017 (au moins).
+                </p>"
+        subtitle2: "Que suis-je prêt à faire ?"
+        content2_html:
+                "<p>
+                    Je peux améliorer mon anglais (étant français c'est pas facile !).
+                </p>
+                <p>
+                    Si mes compétences ne correspondent pas à ce dont vous avez besoin, étant donné que je suis principalement autodidacte je peux toujours apprendre de nouvelles choses (si le feeling est là !).
+                </p>
+                <p>
+                    Étant donné que je suis encore sur Paris, je peux me rendre sur Londres si vous voulez que l'on se rencontre. Il en va de même si vous êtes sur Paris aussi bien sûr. Et bien sûr si vous voulez travailler avec moi je me mettrait dans les dispositions correctes.
+                </p>"
+        subtitle3: "Mes principales caractéristiques ?"
+        content3_html:
+                "<p>
+                    Motivé, en constant apprentissage, etc. Mais vraiment ? J'aime réflechir avant d'agir et j'ai besoin d'un environnement qui me plait pour être efficace.
+                </p>
+                <p>
+                    Je sais rechercher sur internet.
+                </p>"
+        subtitle4: "Du code que j'ai écrit ?"
+        content4_html:
+                "<p>
+                    Si vous voulez jeter un coup d'oeil au code que j'ai déjà écrit, voici mon github : <a href='https://github.com/FaXaq'>https://github.com/FaXaq</a> n'hésitez pas à m'envoyer un mail si vous en voulez plus !
+                </p>"
+        subtitle5: "Mes hobbies"
+        content5_html:
+                "<p>
+                    Je joue de la guitare et je joue de la guitare, et parfois je commence un nouveau projet. Ah oui et je suis un gamer (ex WoW, ex SC2, et maintenant Overwatch).
+                </p>"
