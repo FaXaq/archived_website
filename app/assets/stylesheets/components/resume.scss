@@ -7,30 +7,38 @@
         display:inline-block;
         + * {
             display:inline-block;
+            padding:.5em;
         }
     }
 
     b {
         text-transform:bold;
     }
+    p, li, li * {
+        font-size:.9em;
+    }
+
+    ul:not(.actions):not(.nav) > li:before {
+        font-size:3pt !important;
+    }
 }
 
 @include breakpoint("only print") {
     body {
-        line-height:130% !important;
+        font-size:0.6em !important;
     }
     .left-pan {
         display:none;
         overflow:none;
     }
     .main {
-        font-size:$font-size/2;
         overflow:initial;
-        header {
-            font-size:$font-size*1.5;
-        }
-        p, li {
+        p {
             text-align:justify;
+        }
+        header {
+            text-transform:uppercase;
+            font-weight: bold;
         }
         li {
             margin:.7em 0;
@@ -38,8 +46,17 @@
         > section > article > section {
             padding-top:.5em;
         }
-    }
-    h2, h3 {
 
+        article {
+            padding:1em;
+        }
+    }
+    article.resume {
+        ul {
+            margin:20px !important;
+        }
+    }
+    div.separator.h:after {
+        margin:10px auto !important;
     }
 }

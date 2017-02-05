@@ -6,7 +6,6 @@
 
 body {
     font-family: $font-family;
-    font-size:$font-size;
     line-height: $line-height;
 }
 
@@ -57,6 +56,7 @@ h6 {
 header {
     > h1,h2,h3,h4,h5,h6 {
         line-height: normal;
+        font-weight: 600;
     }
     > p {
         font-size:$font-size;
@@ -152,4 +152,8 @@ a.share {
         display:inline-block;
         color:black;
     }
+}
+
+a,p,li, {
+    word-break:break-word;
 }

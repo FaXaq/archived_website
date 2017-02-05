@@ -1,6 +1,6 @@
 <article class="resume">
     <header>
-        <%= image_tag "profile.png", class:"pp" %>
+        <%= image_tag "profileresume.jpg", class:"pp" %>
         <div class="legalinfos">
             <h2><%= t ".name" %> - <%= t ".function"%></h2>
             <p>Paris - France</p>
@@ -28,68 +28,78 @@
                     <h3>_blank - Belleville citoyenne</h3>
                     <p><i>11/2015 - <%= t ".today" %></i></p>
                 </header>
-                <p>
-                    <b>
-                      <%= t ".experiences.blank.title1" %>
-                    </b>
-                </p>
-                <%= t ".experiences.blank.list1_html" %>
-                <%= t ".experiences.blank.p1_html" %>
-                <p>
-                    <b>
-                        <%= t ".experiences.blank.title2" %>
-                    </b>
-                </p>
-                <%= t ".experiences.blank.list2_html" %>
-                <%= t ".experiences.blank.p2_html" %>
+                <section>
+                    <header>
+                        <h6><%= t ".experiences.blank.title1" %></h6>
+                    </header>
+                    <section>
+                        <%= t ".experiences.blank.list1_html" %>
+                    </section>
+                    <section>
+                        <%= t ".experiences.blank.p1_html" %>
+                    </section>
+                </section>
+                <section>
+                    <header>
+                        <h6><%= t ".experiences.blank.title2" %></h6>
+                    </header>
+                    <section>
+                        <%= t ".experiences.blank.list2_html" %>
+                    </section>
+                    <section>
+                        <%= t ".experiences.blank.p2_html" %>
+                    </section>
+                </section>
             </section>
             <section>
                 <header>
                     <h3>enioka - <a href="http://enioka.com">http://www.enioka.com</a></h3>
                     <p><i>08/2014 - 10/2016</i></p>
                 </header>
-                <p>
-                    <b>
-                        <%= t ".experiences.enioka.title1" %>
-                    </b>
-                </p>
-                <%= t ".experiences.enioka.list1_html" %>
-            </p>
-            <p>
-                <b>
-                    <%= t ".experiences.enioka.title2" %>
-                </b>
-                <a href="http://itlivemaps.com">http://itlivemaps.com</a>
-            </p>
-            <%= t ".experiences.enioka.list2_html" %>
-            </p>
-            <p>
-                <b>
-                    <%= t ".experiences.enioka.title3" %>
-                </b>
-                <a href="https://github.com/enioka/ij.js">https://github.com/enioka/ij.js</a>
-            </p>
-            <%= t ".experiences.enioka.list3_html" %>
+                <section>
+                    <header>
+                        <h6><%= t ".experiences.enioka.title1" %></h6>
+                    </header>
+                    <%= t ".experiences.enioka.list1_html" %>
+                </section>
+                <section>
+                    <header>
+                        <h6><%= t ".experiences.enioka.title2" %></h6>
+                        <a href="http://itlivemaps.com">http://itlivemaps.com</a>
+                    </header>
+                    <%= t ".experiences.enioka.list2_html" %>
+                </section>
+                <section>
+                    <header>
+                        <h6><%= t ".experiences.enioka.title3" %></h6>
+                        <a href="https://github.com/enioka/ij.js">https://github.com/enioka/ij.js</a>
+                    </header>
+                    <%= t ".experiences.enioka.list3_html" %>
+                </section>
             </section>
             <section>
                 <header>
                     <h3>Servier - <a href="http://servier.fr">http://servier.fr</a></h3>
                     <p><i>07/2013 - 10/2013</i></p>
                 </header>
-                <p>
-                    <%= t ".experiences.servier.title1" %>
-                </p>
-                <%= t ".experiences.servier.list1_html" %>
+                <section>
+                    <header>
+                        <h6><%= t ".experiences.servier.title1" %></h6>
+                    </header>
+                    <%= t ".experiences.servier.list1_html" %>
+                </section>
             </section>
             <section>
                 <header>
                     <h3>Docteur Souris - <a href="http://www.docteursouris.fr/">http://www.docteursouris.fr/</a></h3>
                     <p><i>02/2013 - 06/2013</i></p>
                 </header>
-                <p>
-                  <%= t ".experiences.docteursouris.title1" %>
-                </p>
-                <%= t ".experiences.docteursouris.list1_html" %>
+                <section>
+                    <header>
+                        <h6><%= t ".experiences.docteursouris.title1" %></h6>
+                    </header>
+                    <%= t ".experiences.docteursouris.list1_html" %>
+                </section>
             </section>
         </article>
     </section>
@@ -101,28 +111,28 @@
         <article>
             <section>
                 <header>
-                    <h3>_blank - <a href="http://blank.bellevillecitoyenne.fr">http://blank.bellevillecitoyenne.fr</a></h3>
+                    <h5>_blank - <a href="http://blank.bellevillecitoyenne.fr">http://blank.bellevillecitoyenne.fr</a></h5>
                     <p><%= t ".projects.blank.title1" %></p>
                 </header>
                 <% t ".projects.blank.content_html" %>
             </section>
             <section>
                 <header>
-                    <h3>SHiELD Initiative - <a href="http://shieldup.fr">http://shieldup.fr</a></h3>
+                    <h5>SHiELD Initiative - <a href="http://shieldup.fr">http://shieldup.fr</a></h5>
                     <p><%= t ".projects.shield.title1" %></p>
                 </header>
                 <% t ".projects.shield.content_html" %>
             </section>
             <section>
                 <header>
-                    <h3>ij.js - <a href="https://github.com/enioka/ij.js">https://github.com/enioka/ij.js</a></h3>
+                    <h5>ij.js - <a href="https://github.com/enioka/ij.js">https://github.com/enioka/ij.js</a></h5>
                     <p><%= t ".projects.ijjs.title1" %></p>
                 </header>
                 <% t ".projects.,ijjs.content_html" %>
             </section>
             <section>
                 <header>
-                    <h3>SYC (Search for Your Content) - <a href="https://github.com/lucasbedout/search-engine">https://github.com/lucasbedout/search-engine</a></h3>
+                    <h5>SYC (Search for Your Content) - <a href="https://github.com/lucasbedout/search-engine">https://github.com/lucasbedout/search-engine</a></h5&>
                     <p><%= t ".projects.syc.title1" %></p>
                 </header>
                 <% t ".projects.syc.content_html" %>
@@ -132,23 +142,23 @@
     <div class="separator h"></div>
     <section id="formation">
         <header>
-          <h2>
-            <%= t ".training.title" %>
-          </h2>
+            <h2>
+                <%= t ".training.title" %>
+            </h2>
         </header>
         <article>
             <section>
                 <header>
-                  <h2>
-                    <%= t ".training.subtitle1" %>
+                    <h2>
+                        <%= t ".training.subtitle1" %>
                     </h2>
                 </header>
-                <%= t ".training.training1_html" %>
+                <%= t ".training.trainings.training1_html" %>
             </section>
             <section>
                 <header>
                     <h2>
-                      <%= t ".training.subtitle2" %>
+                        <%= t ".training.subtitle2" %>
                     </h2>
                 </header>
                 <%= t ".training.competencies.p1_html" %>
