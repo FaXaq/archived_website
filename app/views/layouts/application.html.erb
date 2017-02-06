@@ -12,7 +12,9 @@
   <body>
     <div class="container inner">
       <%= render "nav" %>
-      <%= render "actions" %>
+      <% if current_page?('/resume') %>
+          <%= render "actions" %>
+      <% end %>
       <main class="main">
         <%= yield %>
       </div>

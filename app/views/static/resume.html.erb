@@ -18,39 +18,40 @@
         <%= t ".about.p3_html" %>
     </section>
     <div class="separator h"></div>
+    <section id="formation">
+        <!-- <header> -->
+        <!--     <h2> -->
+        <!--         <%= t ".training.title" %> -->
+        <!--     </h2> -->
+        <!-- </header> -->
+        <article>
+            <section>
+                <header>
+                    <h2>
+                        <%= t ".training.subtitle1" %>
+                    </h2>
+                </header>
+                <%= t ".training.trainings.training1_html" %>
+            </section>
+            <section>
+                <header>
+                    <h2>
+                        <%= t ".training.subtitle2" %>
+                    </h2>
+                </header>
+                <%= t ".training.competencies.p1_html" %>
+                <%= t ".training.competencies.list1_html" %>
+                <%= t ".training.competencies.p2_html" %>
+                <%= t ".training.competencies.list2_html" %>
+            </section>
+        </article>
+    </section>
+    <div class="separator h"></div>
     <section id="experiences">
         <header>
             <h2><%= t ".xp" %></h2>
         </header>
         <article>
-            <section>
-                <header>
-                    <h3>_blank - Belleville citoyenne</h3>
-                    <p><i>11/2015 - <%= t ".today" %></i></p>
-                </header>
-                <section>
-                    <header>
-                        <h6><%= t ".experiences.blank.title1" %></h6>
-                    </header>
-                    <section>
-                        <%= t ".experiences.blank.list1_html" %>
-                    </section>
-                    <section>
-                        <%= t ".experiences.blank.p1_html" %>
-                    </section>
-                </section>
-                <section>
-                    <header>
-                        <h6><%= t ".experiences.blank.title2" %></h6>
-                    </header>
-                    <section>
-                        <%= t ".experiences.blank.list2_html" %>
-                    </section>
-                    <section>
-                        <%= t ".experiences.blank.p2_html" %>
-                    </section>
-                </section>
-            </section>
             <section>
                 <header>
                     <h3>enioka - <a href="http://enioka.com">http://www.enioka.com</a></h3>
@@ -75,6 +76,34 @@
                         <a href="https://github.com/enioka/ij.js">https://github.com/enioka/ij.js</a>
                     </header>
                     <%= t ".experiences.enioka.list3_html" %>
+                </section>
+            </section>
+            <section>
+                <header>
+                    <h3>_blank - Belleville citoyenne  <a href="http://blank.bellevillecitoyenne.fr">http://blank.bellevillecitoyenne.fr</a></h3>
+                    <p><i>11/2015 - <%= t ".today" %></i></p>
+                </header>
+                <section>
+                    <header>
+                        <h6><%= t ".experiences.blank.title1" %></h6>
+                    </header>
+                    <section>
+                        <%= t ".experiences.blank.list1_html" %>
+                    </section>
+                    <section>
+                        <%= t ".experiences.blank.p1_html" %>
+                    </section>
+                </section>
+                <section>
+                    <header>
+                        <h6><%= t ".experiences.blank.title2" %></h6>
+                    </header>
+                    <section>
+                        <%= t ".experiences.blank.list2_html" %>
+                    </section>
+                    <section>
+                        <%= t ".experiences.blank.p2_html" %>
+                    </section>
                 </section>
             </section>
             <section>
@@ -106,7 +135,7 @@
     <div class="separator h"></div>
     <section id="projects">
         <header>
-            <h2>Projects</h2>
+            <h2><%= t ".projects.title1" %></h2>
         </header>
         <article>
             <section>
@@ -128,7 +157,7 @@
                     <h5>ij.js - <a href="https://github.com/enioka/ij.js">https://github.com/enioka/ij.js</a></h5>
                     <p><%= t ".projects.ijjs.title1" %></p>
                 </header>
-                <% t ".projects.,ijjs.content_html" %>
+                <% t ".projects.ijjs.content_html" %>
             </section>
             <section>
                 <header>
@@ -136,35 +165,6 @@
                     <p><%= t ".projects.syc.title1" %></p>
                 </header>
                 <% t ".projects.syc.content_html" %>
-            </section>
-        </article>
-    </section>
-    <div class="separator h"></div>
-    <section id="formation">
-        <header>
-            <h2>
-                <%= t ".training.title" %>
-            </h2>
-        </header>
-        <article>
-            <section>
-                <header>
-                    <h2>
-                        <%= t ".training.subtitle1" %>
-                    </h2>
-                </header>
-                <%= t ".training.trainings.training1_html" %>
-            </section>
-            <section>
-                <header>
-                    <h2>
-                        <%= t ".training.subtitle2" %>
-                    </h2>
-                </header>
-                <%= t ".training.competencies.p1_html" %>
-                <%= t ".training.competencies.list1_html" %>
-                <%= t ".training.competencies.p2_html" %>
-                <%= t ".training.competencies.list2_html" %>
             </section>
         </article>
     </section>

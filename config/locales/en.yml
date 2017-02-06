@@ -23,41 +23,26 @@ en:
   hello: "Hello world"
   static:
     resume:
-      age: "22yo"
+      age: "22yo - Languages : French (native), English (fluent)"
       name: "Marin Procureur"
-      function: "Developer"
+      function: "FullStack Developer"
       contact: "Contact"
       or: "or"
       today: "Today"
       aboutme: "About me"
       about:
-        p1_html: "<p>Passionate about Software & Web Development and the knowledge sharing that is implied in it, I am looking for a professional experience in London or Paris from 1st of April until end of October 2017 (and more if suited).</p>"
-        p2_html: "<p>Even though I am interested by the technical side of IT I do not forget the human side. This is why during the last two years I have helped at first as a teacher and now as co-director of studies a project called <a href='http://blank.bellevillecitoyenne.fr'>_blank</a>. It is a social web development school based in Belleville neighborhood in Paris, France.</p>"
-        p3_html: "<p>I'm mostly a self-taught developer (except for the programming guidelines and concepts). I learned from making projects both alone and with co-workers and JavaScript is my predilection programming language. I'm also finishing my Master of Science in CS cursus at Supinfo International University. It provides me general knowledge about all aspects of IT (development, law, project management, network, system administration, etc.)</p>"
+        p1_html: "<p>I am passionate about Software & Web Development and the knowledge (sharing or discovering) that is implied in it.</p>"
+        p2_html: "<p>I am also constantly learning, discovering and practising development on personal projects or platforms such as HackerRank. Moreover, I am a freelance developer until April 2017.</p>"
+        p3_html: "<p>I have learned development through school, personal projects, and professional experiences. That has taught me a lot about programming but also about general IT subjects.</p>"
       xp: "Experiences"
       experiences:
         blank:
-          title1: "2015/2016 : Web development Teacher (HTML, CSS, Javascript)."
+          title1: ""
           list1_html:
-                "<ul>
-                    <li>
-                        Teaching to apprentices taken out from regular school.
-                    </li>
-                    <li>
-                        Professional and scholastic re-integration.
-                    </li>
-                    <li>
-                        Training took place every evening from 7pm to 9pm each tuesday and thurday during 4 months.
-                    </li>
-                    <li>
-                        We had 3 regular students and over 10 non-regular ones.
-                    </li>
-                </ul>"
+                "<p>_blank is a project of the association Belleville Citoyenne. It is a free web development school based in Belleville, Paris.</p><hr>"
           p1_html:
-                "<p>
-                    Since last year we made a lot of changes and improved seriousness of the training.
-                </p>"
-          title2: "2016/2017 : Co-Director of Studies"
+                ""
+          title2: "2015/2017 : Co-Director of Studies"
           list2_html:
                 "<ul>
                     <li>
@@ -67,13 +52,10 @@ en:
                         Teaching to apprentices taken out from regular school (mondays and tuesdays from 1pm to 9pm).
                     </li>
                     <li>
-                        Writing of classes about web essentials (HTML,CSS,Javascript,PHP,SQL)
+                        Writing of classes about web essentials (HTML,CSS,Javascript,PHP,SQL).
                     </li>
                     <li>
-                        Stepping up the frequency of classses. We went from 4h per week to 24h per week.
-                    </li>
-                    <li>
-                        This involved creation of a planning and rigour regarding the educational content and technologies to deploy classes (moodle, github, reveal.js).
+                        Planning and rigour regarding the educational content and technologies to deploy classes (moodle, github, reveal.js).
                     </li>
                     <li>
                         Besides we have been recognized as a 'Grand École du Numérique' by the french administration.
@@ -84,19 +66,15 @@ en:
                   Today, we have 12 regular students willing to come every monday and tuesday from 1pm to 9pm and every friday from 10am (not always !) to 8pm to take our classes and learn web development.
                 </p>"
         enioka:
-          title1: "2014 : Intern."
+          title1: ""
           list1_html:
-                "<ul>
-                    <li>
-                        Frontend vanilla JavaScript development on a modeling tool. No framework except use of inheritance.js, go.js, jQuery and jQuery plugins when needed.
-                    </li>
-                    <li>
-                        The development took place on a web application named 'modeler'. It used data to model complete Information Systems and help resolve complex issues related to either its understanding, failure, upgrade, migration, etc..
-                    </li>
-                </ul>"
-          title2: "2014 / 2015 : Apprentice. 2015 / 2016 : Consultant and Web developer."
+                "<p>enioka is the reference partner to help you manage the complexity of your Information System.</p><hr>"
+          title2: "2014 / 2016 : Consultant and Web developer"
           list2_html:
             "<ul>
+                <li>
+                    Frontend vanilla JavaScript development on a modeling tool (the 'modeler'). No framework except use of inheritance.js, go.js, jQuery and jQuery plugins when needed.
+                </li>
                 <li>
                     Deployment and maintenance of the modeler at different client places (small, medium and big companies).
                 </li>
@@ -113,7 +91,7 @@ en:
                     Design enhancement of the modeler core. And thoughts about design issues in the modeler core.
                 </li>
             </ul>"
-          title3: "2015 / 2016 : Web developer."
+          title3: "2015 / 2016 : Web developer"
           list3_html:
                 "<ul>
                     <li>
@@ -124,7 +102,7 @@ en:
                     </li>
                 </ul>"
         servier:
-          title1: "Intern."
+          title1: "FrontEnd Developer"
           list1_html:
                 "<ul>
                     <li>
@@ -149,6 +127,7 @@ en:
                     </li>
                 </ul>"
       projects:
+        title1: "Projects"
         blank:
           title1: "Paris - Belleville - Social Web development School"
           content_html:
@@ -183,63 +162,51 @@ en:
         trainings:
           training1_html:
                 "<p>
-                    I'm still studying at Supinfo International University - Paris. I will attend to my final examinations on october 2017 and obtain a Master of Science 2 : Expert in IT and Information Systems.
+                    I'm studying at Supinfo International University - Paris. I will attend to my final examinations on october 2017 and obtain a Master of Science 2 : Expert in IT and Information Systems.
+                </p>
+                <p>
+                    I have a bacalauréat S with honours.
                 </p>"
         competencies:
           p1_html:
                 "<p>
-                    During my studies I have gathered good competencies in :
+                    During my previous experiences I have gathered valuable competencies in :
                 </p>"
           list1_html:
                 "<ul>
                     <li>
-                        Programming concepts (variables, control structures, functions, OOP, algorithms, patterns, separation of concerns, TDD).
+                        Programming concepts (control structures, functions, OOP, algorithms, patterns, separation of concerns, TDD, memory management, MVC).
                     </li>
                     <li>
-                        Vanilla JavaScript
+                        <b>JavaScript</b> (+ grunt & gulp, Jasmine) / HTML5 / CSS3 (SASS).
                     </li>
                     <li>
-                        HTML / CSS
+                        <b>Application Design and conception.</b>
                     </li>
                     <li>
-                        Application Design and conception
+                        Linux, Emacs, and <b>git</b> !
                     </li>
                     <li>
-                        Linux & Emacs !
+                        Network (CCNA 1 level), Virtualization (problematics associated : ByoD, security, App publishing, VDI), System Administration (Apache, MySQL).
+                    </li>
+                    <li>
+                        DataBases (and their differencies : SQL, NoSQL).
                     </li>
                 </ul>"
           p2_html:
                 "<p>
-                    Moreover I have some bases that I am willing to develop in :
+                    Moreover I also know but have no professional experiences in :
                 </p>"
           list2_html:
                 "<ul>
                     <li>
-                        C / C++ concepts (projects done : Choplifter-like game written with SDL in C language & Search engine core written in C++).
+                        AngularJS / ReactJS / NodeJS
                     </li>
                     <li>
-                        Go (project done : website to transcode videos).
+                        C / <b>C++</b> (projects done : ChopLifter clone + Search Engine).
                     </li>
                     <li>
-                        Rust
-                    </li>
-                    <li>
-                        Network (CCNA 1 level)
-                    </li>
-                    <li>
-                        Virtualization (and problematics associated : ByoD, security, App publishing, VDI)
-                    </li>
-                    <li>
-                        PHP
-                    </li>
-                    <li>
-                        Python 2 (& 3)
-                    </li>
-                    <li>
-                        DataBases (and their differencies : SQL, NoSQL)
-                    </li>
-                    <li>
-                        Ruby & Ruby on Rails (norra.fr is made with RoR)
+                        <b>Go</b> (project done : website to transcode videos), Rust, PHP, Ruby & Ruby on Rails,Python 2 (& 3), lisp.
                     </li>
                 </ul>"
       more:
@@ -247,26 +214,17 @@ en:
         subtitle1: "What do I want ?"
         content1_html:
                 "<p>
-                    I am currently looking for a professional experience in London or Paris from April to October 2017 (at least).
+                    I am currently looking to offer my competencies and experience in London or Paris from April 2017.
                 </p>"
         subtitle2: "What am I willing to do ?"
         content2_html:
                 "<p>
-                    I can improve my English (as a french guy it is sometimes hard, and I know I make mistakes).
-                </p>
-                <p>
-                    If my competencies are not what you need, as I am mostly self taught I can always learn new things if the feeling is there. We just need to discuss that.
-                </p>
-                <p>
-                    As I am still in Paris, I can move to London to meet if you want. I am willing to move even if you're in Paris ! And obviously if you want to work with me I will be moving to London for the time of the internship.
+                    I will develop and share my competencies and knowledge and discover new fields.
                 </p>"
         subtitle3: "My main traits ?"
         content3_html:
                 "<p>
-                    Motivated, always learning, etc. But really ? I like to think before doing things, and I need to be in a environment that suits me to be effective.
-                </p>
-                <p>
-                    I know how to search on the internet.
+                    Motivated, always learning, discovering, autonomous, I like to think before doing things, and I need to be in a environment that suits me to be effective.
                 </p>"
         subtitle4: "Some of my code ?"
         content4_html:

@@ -54,7 +54,7 @@ h6 {
 
 
 header {
-    > h1,h2,h3,h4,h5,h6 {
+    > h1,h2,h3,h4 {
         line-height: normal;
         font-weight: 600;
     }
@@ -141,6 +141,38 @@ a.download {
         font-family:"FontAwesome";
         display:inline-block;
         color:black;
+    }
+}
+
+a.fr {
+    &:before {
+        cursor:pointer;
+        content:" ";
+        height:22px;
+        width:30px;
+        font-family:"sans-serif";
+        display:inline-block;
+        color:black;
+        background-image: asset-data-url("fr.png");
+        background-size: cover;
+        background-position:center center;
+    }
+}
+
+
+
+a.en {
+    &:before {
+        cursor:pointer;
+        content:" ";
+        height:22px;
+        width:30px;
+        font-family:"sans-serif";
+        display:inline-block;
+        color:black;
+        background-image: asset-data-url("en.png");
+        background-size: cover;
+        background-position:center center;
     }
 }
 

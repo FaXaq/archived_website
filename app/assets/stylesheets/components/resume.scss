@@ -3,6 +3,7 @@
 @import "require/vars";
 
 .main > .resume {
+    font-family:"sans-serif";
     .pp {
         display:inline-block;
         + * {
@@ -12,14 +13,27 @@
     }
 
     b {
-        text-transform:bold;
+        font-weight:600;
     }
-    p, li, li * {
+    p, li {
         font-size:.9em;
     }
 
     ul:not(.actions):not(.nav) > li:before {
         font-size:3pt !important;
+    }
+
+    section > article {
+        padding:.3em;
+    }
+    div.separator.h:after {
+        margin: 25px auto;
+    }
+
+    > header {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 }
 
@@ -36,7 +50,7 @@
         p {
             text-align:justify;
         }
-        header {
+        > header > h1, > header > h2, > header > h3, > header > h4 {
             text-transform:uppercase;
             font-weight: bold;
         }
