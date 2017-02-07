@@ -10,20 +10,23 @@ fr:
       today: "Aujourd'hui"
       aboutme: "À propos de moi"
       about:
-        p1_html: "<p>Je suis passionné par le développement web ainsi que logiciel. J'apprécie tout particulièrement découvrir, résoudre des problèmes ainsi que partager mes connaissances.</p>"
-        p2_html: "<p>Je suis donc en constant apprentissage, découvrant de nouveaux langages, nouvelles pratiques de développement et ce sur des projets personnels ou des plateformes comme HackerRank. De plus je suis actuellement un développeur freelance jusqu'à Avril 2017.</p>"
-        p3_html: "<p>J'ai appris le développement au travers de mes études ainsi que de mes expériences professionnelles mais aussi personnelles. J'ai donc appris beaucoup en développement mais aussi sur divers autres sujets IT.</p>"
+        p1_html: "<p>Je suis un développeur Full Stack avec environ 3 ans d'expérience. J'apprécie tout particulièrement découvrir, résoudre des problèmes complexes ainsi que partager mes connaissances. Mes compétences contiennent entre autres le développement web (HTML/CSS/JS, PHP, Ruby on Rails, MariaDB, MongoDB, Apache), le développement logiciel (Go, Rust, C++, Python), de l'algorithmique, de la conception et du design applicatif. De plus je suis actuellement développeur freelance jusqu'à Avril 2017.</p>"
+        p2_html: "<p>J’ai participé à des projets de développement auprès d’un éditeur, accompagné les clients dans la mise en œuvre logiciel, mené des projets de sites internet complets en tant qu’auto entrepreneur et co-construit un programme pédagogique.</p>"
+        p3_html: "<p>Je souhaite aujourd'hui faire partie d'une entreprise ou startup innovante ayant une taille humaine et un projet ambitieux.</p>"
       xp: "Experiences"
       experiences:
         blank:
-          title1: ""
+          desc_html:
+                "<p>_blank est un projet de l'association Belleville Citoyenne. C'est une école de développement web gratuite - Belleville, Paris, France.</p><hr>"
+          title1: "2015/2017 : Co-Responsable Pédagogique"
           list1_html:
-                "<p>_blank est un projet de l'association Belleville Citoyenne. C'est une école de développement web gratuite basée à Belleville, Paris.</p><hr>"
-          p1_html:
-                ""
-          title2: "2015/2017 : Co-Responsable Pédagogique"
-          list2_html:
                 "<ul>
+                    <li>
+                        Définition de l'objectif pédagogique, élaboration du projet, défintion des éléments logistiques, participation aux campagnes de financement (forums, partenariats, subvention), gestion du budget, organisation temporelle des ressources, organisation de conférences.
+                    </li>
+                    <li>
+                        Écriture des cours à propos des essentiels de la programmation web (HTML,CSS,Javascript,PHP,SQL)
+                    </li>
                     <li>
                         Tout le contenu créé est disponible ici : <a href='https://github.com/blank-project/_blank'>https://github.com/blank-project/_blank</a>.
                     </li>
@@ -31,76 +34,77 @@ fr:
                         Enseignement aux apprenants tous les lundi et mardi de 13h à 21h.
                     </li>
                     <li>
-                        Écriture des cours à propos des essentiels de la programmation web (HTML,CSS,Javascript,PHP,SQL)
-                    </li>
-                    <li>
-                       Utilisation de différents outils et différentes librairies (reveal.js, moodle, github, etc.) pour faciliter le suivi et la planification.
+                        Utilisation de différents outils et différentes librairies (reveal.js, moodle, github, etc.) pour faciliter le suivi et la planification.
                     </li>
                     <li>
                         Nous avons été labellisé 'Grande École du Numérique' par l'administration française.
                     </li>
             </ul>"
-          p2_html:
+          p1_html:
                 "<p>
-                  Aujourd'hui nous avons 13 apprenants qui viennent chaque semaine le lundi et mardi de 13h à 21h et le vendredi de 10h (pas toujours !) à 20h pour prendre des cours et apprendre le développement web.
+                  Aujourd'hui nous avons une formation de 520h sur 6 mois, avec des cours le mardi de 13h à 21h et le vendredi de 10h à 20h pour apprendre le développement web.
                 </p>"
         enioka:
-          title1: ""
+          desc_html:
+                "<p>enioka est une entreprise qui aide à gérer la complexité des SI via du conseil personnalisé et si besoin son outil de modélisation.</p><hr>"
+          title1: "2014 / 2016 : Consultant et Développeur Web."
           list1_html:
-                "<p>enioka est le partenaire de référence pour vous aider à gérer la complexité de votre SI.</p><hr>"
-          title2: "2014 / 2016 : Consultant et Développeur Web."
-          list2_html:
             "<ul>
                 <li>
-                    Développement frontend en JavaScript vanilla sur un outil de modélisation (le 'modeler'). Pas de framework utilisé excepté l'utilisation de inheritance.js, go.js, jQuery et plugins jQuery quand nous en avions besoin.
+                    Développement frontend en JavaScript vanilla sur un outil de modélisation (le 'modeler'). Pas de framework excepté l'utilisation de inheritance.js, go.js, jQuery et plugins jQuery lorsque nous en avions besoin.
                 </li>
                 <li>
-                    Déploiement et maintenant du 'modeler' chez différents clients (petites, moyennes et grosses entreprises).
+                    Déploiement et maintenance du 'modeler' chez différents clients (petites, moyennes et grosses entreprises aux domaines d'activités variés : Publicité, Logistique, Grande Distribution, Opérateurs Téléphonique).
                 </li>
                 <li>
-                    Récupération et différentes informations sur les systèmes d'information selon quatre plans (fonctionnel, applicatif, infrastructure et processus) et insertion dans le 'modeler'.
+                    Recueil des différentes informations sur les systèmes d'information selon quatre plans (fonctionnel, applicatif, infrastructure et processus) et modélisation dans le 'modeler'.
                 </li>
                 <li>
-                    Développement spécifique pour des clients (incluant intégration spéciale de données, nouvelles vues, et mise à jour du coeur du 'modeler').
+                    Développement spécifique pour des clients (incluant intégration spéciale de données, nouvelles vues, et mise à jour du coeur du 'modeler'). Exemple : Développpement d'une vue représentant les données sous forme matricielle (relations entre éléments et leur hierarchie).
                 </li>
                 <li>
-                    Etude et création de la road map pour le 'modeler' en faisant partie de la 'modeler team'.
+                    Participation à l'étude et création de la road map pour l'outil de modélisation.
                 </li>
                 <li>
-                    Amélioartion du design du coeur du 'modeler'. Reflexion à propos des problèmes liés au coeur du 'modeler'.
+                    Amélioration du design du coeur du 'modeler' (système de notifications, système de participation, système d'annotations, système de versionning intégré).
                 </li>
             </ul>"
-          title3: "2015 / 2016 : Développeur Web."
-          list3_html:
+          title2: "2015 / 2016 : Développeur Web."
+          list2_html:
                 "<ul>
                     <li>
-                        Création d'une librairie de représentation de données sous forme matricielle (appellée ij.js). Elle peut-être utilisée dans ou à l'extérieur du modeler et est disponible sur github : <a href='https://github.com/enioka/ij.js' >https://github.com/enioka/ij.js</a>
+                        Création d'une bibliothèque de représentation de données sous forme matricielle (appellée ij.js). Elle peut-être utilisée dans ou à l'extérieur du modeler et est disponible sur github : <a href='https://github.com/enioka/ij.js' >https://github.com/enioka/ij.js</a>
                     </li>
                     <li>
-                        Utilisation de cette librairie pour créer une vue spécifique dans le 'modeler'.
+                        Utilisation de cette bibliothèque pour créer une vue spécifique dans le 'modeler'.
                     </li>
                 </ul>"
         servier:
+          desc_html: "<p>Servier est le premier groupe pharmaceutique indépendant français. Il est présent dans 140 pays, plus de 21 000 personnes collaborent dans le monde. - Paris, France.</p><hr/>"
           title1: "Développeur FrontEnd."
           list1_html:
                 "<ul>
                     <li>
-                        Développement d'une application mobile basée sur les technologies web avec persistances de données dans le navigateur. Affichage de graphiques avec d3.js en prenant différentes sources de données.
+                        Développement d'une application mobile basée sur les technologies web avec persistances de données dans le navigateur.
+                    </li>
+                    <li>
+                        Affichage de graphiques avec d3.js en prenant différentes sources de données.
                     </li>
                 </ul>"
         docteursouris:
-          title1: "Responsable de zone (Hôpital Necker & CHU Bicêtre)"
+          desc_html: "<p>Association visant à offrir un accès à un ordinateur et à une connexion internet aux enfants hospitalisés - Paris, France.</p><hr/>"
+          title1: "Responsable de zone (Hôpital Necker & CHU Bicêtre)."
           list1_html:
                 "<ul>
                     <li>
-                        Récupération et remise en service d'anciens ordinateurs utilisés dans les entreprises pour les enfants des hôpitaux.
+                        Récupération et remise en service d'anciens ordinateurs utilisés dans les entreprises.
                     </li>
                     <li>
                         Support, et sécurisation de PC Windows et Déploiement d'un wifi ouvert et gratuit dans les deux hôpitaux.
                     </li>
                 </ul>"
       projects:
-        title1: "Projets"
+        title1: "Projets importants"
         blank:
           title1: "Paris - Belleville - École de Développement Web gratuite"
           content_html:
@@ -134,78 +138,88 @@ fr:
         subtitle2: "Compétences"
         trainings:
           training1_html:
-                "<p>
-                    J'étudie à Supinfo International University - Paris. Je termine mes examens en octobre 2017 en vue de l'obtention d'un Master of Science 2 - Expert en Informatique et Systèmes d'information.</p>
-                <p>
-                    De plus, j'ai un BAC S mention bien.
+                "<ul>
+                    <li>
+                       Supinfo International University (2017). M.Sc.2 in Computer Sciences.
+                    </li>
+                    <li>
+                       BAC S mention bien (2012).
+                    </li>
                 </p>"
         competencies:
           p1_html:
                 "<p>
-                    Durant mes expériences précédentes j'ai acquis de bonnes compétences en :
+                    Durant mes précédentes expériences professionnelles j'ai acquis ces compétences importantes :
                 </p>"
           list1_html:
                 "<ul>
                     <li>
-                        Concepts de programmation (variables, structures de contrôle, functions, POO, algorithmique, patterns, separation of concerns, TDD, MVC).
+                        Concepts de programmation (variables, structures de contrôle, functions, POO, algorithmique, patterns, separation of concerns, TDD, MVC) - (3 ans)
                     </li>
                     <li>
-                        <b>JavaScript</b> (+ grunt & gulp, Jasmine) / HTML5 / CSS3
+                        <b>JavaScript</b> (+ grunt & gulp, Jasmine) / HTML5 / CSS3 - (3 ans)
                     </li>
                     <li>
-                        <b>Design d'application et conception.</b>
+                        <b>Design d'application et conception.</b> (2 ans)
                     </li>
                     <li>
-                        Réseau (CCNA 1 level), Virtualisation (et problématiques associées : ByoD, sécurité, Publication d'applications, VDI), Administration système (Apache, MySQL).
-                    </li>
-                    </li>
-                    <li>
-                        Bases de données (Et leurs différences)
+                        Réseau (CCNA 1 level), Virtualisation (et problématiques associées : ByoD, sécurité, Publication d'applications, VDI), Administration et Hébergement (Apache, MySQL) - (1 an)
                     </li>
                     <li>
-                        Linux, Emacs et <b>git</b> !
+                        Linux, Emacs et <b>git</b> ! - (2 ans)
                     </li>
                 </ul>"
           p2_html:
                 "<p>
-                    De plus j'ai quelques bases (voir plus !) que je suis prêt à améliorer en :
+                    De plus j'ai acquis les bases et des notions supplémentaires sur des sujets variés :
                 </p>"
           list2_html:
                 "<ul>
                     <li>
-                        AngularJS / ReactJS / NodeJS
+                        AngularJS / ReactJS / NodeJS.
                     </li>
                     <li>
-                        C / C++ (projets effectués : jeu Choplifter-like written écrit avec la  SDL en langage C & coeur d'un moteur de rechercheécrit en C++ C++).
+                        C / C++ (projets effectués : jeu Choplifter-like written écrit avec la  SDL en langage C & coeur d'un moteur de recherche écrit en C++).
                     </li>
                     <li>
-                        Go (projet effectué : Site internet proposant une CGI vers ffmpeg pour transcoder des vidéos), Rust, PHP, Python 2 (& 3), Ruby & Ruby on Rails (norra.fr est fait avec !), lisp.
+                        Go (projet effectué : Site internet proposant une CGI vers ffmpeg pour transcoder des vidéos), Rust, PHP, Python 2 (& 3), Ruby & Ruby on Rails (norra.fr), lisp.
+                    </li>
+                    <li>
+                        Bases de données (Et leurs différences)
                     </li>
                 </ul>"
       more:
         title: "Plus !"
-        subtitle1: "Qu'est-ce que je veux ?"
+        subtitle1: "Plus de projets ?"
         content1_html:
                 "<p>
-                    Je cherche à offrir mes compétences et expériences à Londres ou Paris à partir d'Avril 2017.
-                </p>"
-        subtitle2: "Que suis-je prêt à faire ?"
+                    Bibliothèque permettant la gestion de jobs et workers et interface permettant au backend d'un site web de transcodage Vidéo l'utilisation d'une CGI vers ffmpeg: <a href='https://github.com/FaXaq/gjp'>https://github.com/FaXq/gjp</a>, <a href='https://github.com/FaXaq/coreingo'>https://github.com/FaXaq/coreingo</a>.
+                 </p>"
+        subtitle2: "Réalisations annexes"
         content2_html:
                 "<p>
-                    J'améliorerai et partagerai mes compétences et connaissances. Je suis aussi prêt à découvrir.
-                </p>"
+                    Durant mes années d'études j'ai participé à la vie de mon école en tant que membre puis Responsable des Relations publiques du campus de Paris. Cela comprend l'organisation et la gestion des JPO et Salons (management d'équipe, planning, reflexion et choix des dates et des salons).
+                 </p>
+                 <p>J'ai aussi participer durant mes années d'études ainsi qu'au sein de _blank à l'organisation d'événements (comme le RedBull Student Kumite) et de conférences sur divers thèmes (Jeux Vidéos, Développement, Modèles de données, Interface Client/Server, etc.).
+                 </p>
+                 <p>
+                    Durant mes années d'auto-entreprenariat j'ai effectué des réalisations de sites internets pour des particuliers (FrontEnd, BackEnd, Design, Hébèrgement, Administration Système).
+                 </p>
+                 <p>
+                    Au travers de mes projets scolaires j'ai aussi développé des connaissances importantes sur la séparations des composants, découpage et concepetion d'un site ineternet ou d'une application.
+                 </p>"
         subtitle3: "Mes principales caractéristiques ?"
         content3_html:
                 "<p>
-                    Motivé, en constant apprentissage, autonome. J'aime réflechir avant d'agir et j'ai besoin d'un environnement qui me plait pour être efficace.
+                    Je suis motivé, autonome, curieux et en constant apprentissage. J'aime réflechir avant d'agir et j'ai besoin d'un environnement qui me plait pour être efficace.
                 </p>"
         subtitle4: "Du code que j'ai écrit ?"
         content4_html:
                 "<p>
                     Si vous voulez du code que j'ai déjà écrit, voici mon github : <a href='https://github.com/FaXaq'>https://github.com/FaXaq</a> n'hésitez pas à m'envoyer un mail si vous en voulez plus !
                 </p>"
-        subtitle5: "Mes hobbies"
+        subtitle5: "Mes hobbies ?"
         content5_html:
                 "<p>
-                    Je joue de la guitare et je joue de la guitare, et parfois je commence un nouveau projet. Ah oui et je suis un gamer (ex WoW, ex SC2, et maintenant Overwatch).
+                    Guitare, et projets personnels orienté sur l'informatique. Je suis aussi un gamer (ex WoW, ex SC2, et maintenant Overwatch).
                 </p>"

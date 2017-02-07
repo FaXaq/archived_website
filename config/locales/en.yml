@@ -31,20 +31,20 @@ en:
       today: "Today"
       aboutme: "About me"
       about:
-        p1_html: "<p>I am passionate about Software & Web Development and the knowledge (sharing or discovering) that is implied in it.</p>"
-        p2_html: "<p>I am also constantly learning, discovering and practising development on personal projects or platforms such as HackerRank. Moreover, I am a freelance developer until April 2017.</p>"
-        p3_html: "<p>I have learned development through school, personal projects, and professional experiences. That has taught me a lot about programming but also about general IT subjects.</p>"
+        p1_html: "<p>I am a Full Stack Developer with approximatly 3 years of experience. I particularly enjoy discovering, resolve complex issues and share what I know. My competencies vary from web development (HTML/CSS/JS, PHP, Ruby on Rails, MariaDB, MongoDB, Apache), Software Development (Go, Rust, C++, Python), algorithmic, conception and application design. Moreover, I am currently freelance until April 2017.</p>"
+        p2_html: "<p>I have worked on development projects for a Software Company, accompany clients in software implementation, lead complete websites projects as a freelance developer, and coconstructed a educational program.</p>"
+        p3_html: "<p>I wish today to be part of an innovative human-sized company or a startup having an ambitious project.</p>"
       xp: "Experiences"
       experiences:
         blank:
-          title1: ""
-          list1_html:
+          desc_html:
                 "<p>_blank is a project of the association Belleville Citoyenne. It is a free web development school based in Belleville, Paris.</p><hr>"
-          p1_html:
-                ""
-          title2: "2015/2017 : Co-Director of Studies"
-          list2_html:
+          title1: "2015/2017 : Co-Director of Studies"
+          list1_html:
                 "<ul>
+                    <li>
+                       Definition of the educational project, project elaboration, defintions of logistical elements, involvment in financing campaigns (exhibitions, partnerships, subsidies).
+                    </li>
                     <li>
                         All content created are available here : <a href='https://github.com/blank-project/_blank'>https://github.com/blank-project/_blank</a>.
                     </li>
@@ -61,34 +61,34 @@ en:
                         Besides we have been recognized as a 'Grand École du Numérique' by the french administration.
                     </li>
             </ul>"
-          p2_html:
+          p1_html:
                 "<p>
-                  Today, we have 12 regular students willing to come every monday and tuesday from 1pm to 9pm and every friday from 10am (not always !) to 8pm to take our classes and learn web development.
+                  Today, we have a scholling of 520h on 6 months, with classes every monday and tuesday from 1pm to 9pm and every friday from 10am to 8pm to learn web development.
                 </p>"
         enioka:
-          title1: ""
+          desc_html: "<p>
+                        enioka is a company that help manage IS complexity with personalised consulting and if needed its modeling tool - Paris, France.
+                     </p><hr/>"
+          title1: "2014 / 2016 : Consultant and Web developer"
           list1_html:
-                "<p>enioka is the reference partner to help you manage the complexity of your Information System.</p><hr>"
-          title2: "2014 / 2016 : Consultant and Web developer"
-          list2_html:
             "<ul>
                 <li>
                     Frontend vanilla JavaScript development on a modeling tool (the 'modeler'). No framework except use of inheritance.js, go.js, jQuery and jQuery plugins when needed.
                 </li>
                 <li>
-                    Deployment and maintenance of the modeler at different client places (small, medium and big companies).
+                    Deployment and maintenance of the modeler at different client places (small, medium and big companies in various areas : Advertising, Logistics, Large Retailers, Telephone Operators).
                 </li>
                 <li>
-                    Map several informations systems on four plans (functionnal, applicative, infrastructure, and process) into the modeler.
+                    Map several informations systems on four plans (functionnal, applicative, infrastructure, and process) and modelisation in the modeler.
                 </li>
                 <li>
-                    Specific development for several clients (including special maping, special views and update of modeler core).
+                    Specific development for several clients (including special maping, special views and update of modeler core). Example : Development of a specific view to represent data through a two dimensional array (showing relations and elements hierarchy).
                 </li>
                 <li>
                     Part of the modeler team creating a road map for the modeler web application.
                 </li>
                 <li>
-                    Design enhancement of the modeler core. And thoughts about design issues in the modeler core.
+                    Design enhancement of the modeler core (notification system, participation scheme, annotations, versionning system).
                 </li>
             </ul>"
           title3: "2015 / 2016 : Web developer"
@@ -102,6 +102,7 @@ en:
                     </li>
                 </ul>"
         servier:
+          desc_html: "<p>Servier is the first french independant pharmaceutical group. It has presence in 140 countries and more than 21k associates in the world - Paris, France.</p><hr/>"
           title1: "FrontEnd Developer"
           list1_html:
                 "<ul>
@@ -113,11 +114,12 @@ en:
                     </li>
                 </ul>"
         docteursouris:
+          desc_html : "<p>It is an Association which wants to offer acces to a computer and a network to every child hospitalised.</p><hr/>"
           title1: "Area Manager (Hôpital Necker & CHU Bicêtre)"
           list1_html:
                 "<ul>
                     <li>
-                        Recovery of PCs used by companies and taking those to children in hospitals.
+                        Recovery and recommissioning of PCs used by companies.
                     </li>
                     <li>
                         Support, and securing of Windows PCs.
@@ -162,36 +164,32 @@ en:
         trainings:
           training1_html:
                 "<p>
-                    I'm studying at Supinfo International University - Paris. I will attend to my final examinations on october 2017 and obtain a Master of Science 2 : Expert in IT and Information Systems.
+                    Supinfo International University (2017). M.Sc.S in Computer Sciences.
                 </p>
                 <p>
-                    I have a bacalauréat S with honours.
+                    Scientific Baccalauréat with honors (2012).
                 </p>"
         competencies:
           p1_html:
                 "<p>
-                    During my previous experiences I have gathered valuable competencies in :
+                    During my previous professional experiences I have gathered competencies in :
                 </p>"
           list1_html:
                 "<ul>
                     <li>
-                        Programming concepts (control structures, functions, OOP, algorithms, patterns, separation of concerns, TDD, memory management, MVC).
+                        Programming concepts (control structures, functions, OOP, algorithms, patterns, separation of concerns, TDD, memory management, MVC) - (3 years)
                     </li>
                     <li>
-                        <b>JavaScript</b> (+ grunt & gulp, Jasmine) / HTML5 / CSS3 (SASS).
+                        <b>JavaScript</b> (+ grunt & gulp, Jasmine) / HTML5 / CSS3 (SASS) - (3 years)
                     </li>
                     <li>
-                        <b>Application Design and conception.</b>
+                        <b>Application Design and conception</b> - (2 years)
                     </li>
                     <li>
-                        Linux, Emacs, and <b>git</b> !
+                        Linux, Emacs, and <b>git</b> ! - (2 years)
                     </li>
                     <li>
-                        Network (CCNA 1 level), Virtualization (problematics associated : ByoD, security, App publishing, VDI), System Administration (Apache, MySQL).
-                    </li>
-                    <li>
-                        DataBases (and their differencies : SQL, NoSQL).
-                    </li>
+                        Network (CCNA 1 level), Virtualization (problematics associated : ByoD, security, App publishing, VDI), System Administration (Apache, MySQL) - (1 year)
                 </ul>"
           p2_html:
                 "<p>
@@ -208,19 +206,32 @@ en:
                     <li>
                         <b>Go</b> (project done : website to transcode videos), Rust, PHP, Ruby & Ruby on Rails,Python 2 (& 3), lisp.
                     </li>
+                    </li>
+                    <li>
+                        DataBases (and their differencies).
+                    </li>
                 </ul>"
       more:
         title: "More"
-        subtitle1: "What do I want ?"
+        subtitle1: "More projects ?"
         content1_html:
                 "<p>
-                    I am currently looking to offer my competencies and experience in London or Paris from April 2017.
-                </p>"
-        subtitle2: "What am I willing to do ?"
+                    Library handling jobs and worker (job pool) and interface allowing a website backend to use ffmpeg through a CGI : <a href='https://github.com/FaXaq/gjp'>https://github.com/FaXq/gjp</a>, <a href='https://github.com/FaXaq/coreingo'>https://github.com/FaXaq/coreingo</a>.
+                 </p>"
+        subtitle2: "Additional realisations"
         content2_html:
                 "<p>
-                    I will develop and share my competencies and knowledge and discover new fields.
-                </p>"
+                    During my studies I have been a part of the PR section of my school, at first as a member and then as the manager of the Parisian Campus. This included the organisation and the management of Open Days and Exhibitions (team management, planning, thoughts and choosing of dates).
+                 </p>
+                 <p>
+                    I have also helped during my studies and during _blank to organize events (like the Redbull Student Kumite) and conferences on several themes (Video Gaes, Development, Data Modeling, Client / Server Interface).
+                 </p>
+                 <p>
+                    During my freelance years I have made complete websites for clients (FrontEnd, BackEnd, Design, Hosting).
+                 </p>
+                 <p>
+                    Through my school projects I developped my knowledge in separation of concerns, and website or application conception.
+                 </p>"
         subtitle3: "My main traits ?"
         content3_html:
                 "<p>
