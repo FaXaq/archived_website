@@ -10,10 +10,10 @@ fr:
       today: "Aujourd'hui"
       aboutme: "À propos de moi"
       about:
-        p1_html: "<p>Je suis un développeur Full Stack avec environ 3 ans d'expérience. J'apprécie tout particulièrement découvrir, résoudre des problèmes complexes ainsi que partager mes connaissances. Mes compétences contiennent entre autres le développement web (HTML/CSS/JS, PHP, Ruby on Rails, MariaDB, MongoDB, Apache), le développement logiciel (Go, Rust, C++, Python), de l'algorithmique, de la conception et du design applicatif. De plus je suis actuellement développeur freelance jusqu'à Avril 2017.</p>"
-        p2_html: "<p>J’ai participé à des projets de développement auprès d’un éditeur, accompagné les clients dans la mise en œuvre logiciel, mené des projets de sites internet complets en tant qu’auto entrepreneur et co-construit un programme pédagogique.</p>"
-        p3_html: "<p>Je souhaite aujourd'hui faire partie d'une entreprise ou startup innovante ayant une taille humaine et un projet ambitieux.</p>"
-      xp: "Experiences"
+        p1_html: "<p>Je suis développeur Full Stack depuis 3 ans. J’apprécie de découvrir de nouvelles technologies et de résoudre des problématiques complexes liées à la conception, au design applicatif ou encore à l'algorithmique. J'ai développé des logiciels en Go, Rust, C++ ou encore Python et je suis expérimenté dans le développement web HTML/CSS/JS, PHP, Ruby on Rails, MariaDB, MongoDB ainsi qu'Apache.</p>"
+        p2_html: "<p>Autonome et impliqué, j’ai participé à la création d'une école de développement web gratuite au sein d'une association en co-construisant le programme pédagogique et en partageant mes connaissances. Je mène par ailleurs des projets de sites internet completsdans ma structure autoentrepreneur.</p>"
+        p3_html: "<p>Aujourd'hui je souhaite faire partie d'une entreprise ou startup innovante ayant une taille humaine et un projet ambitieux.</p>"
+      xp: "Expériences"
       experiences:
         blank:
           desc_html:
@@ -22,10 +22,10 @@ fr:
           list1_html:
                 "<ul>
                     <li>
-                        Définition de l'objectif pédagogique, élaboration du projet, défintion des éléments logistiques, participation aux campagnes de financement (forums, partenariats, subvention), gestion du budget, organisation temporelle des ressources, organisation de conférences.
+                        Définition de l'objectif pédagogique, élaboration du projet, défintion des éléments logistiques, participation aux campagnes de financement (forums, partenariats, subventions), gestion du budget, organisation temporelle des ressources, gestion d'équipe, recrutement de formateurs.
                     </li>
                     <li>
-                        Écriture des cours à propos des essentiels de la programmation web (HTML,CSS,Javascript,PHP,SQL)
+                        Écriture des cours à propos des essentiels de la programmation web (HTML,CSS,Javascript,PHP,SQL).
                     </li>
                     <li>
                         Tout le contenu créé est disponible ici : <a href='https://github.com/blank-project/_blank'>https://github.com/blank-project/_blank</a>.
@@ -46,7 +46,7 @@ fr:
                 </p>"
         enioka:
           desc_html:
-                "<p>enioka est une entreprise qui aide à gérer la complexité des SI via du conseil personnalisé et si besoin son outil de modélisation.</p><hr>"
+                "<p>enioka est spécialiste en édition de logiciel et conseil personnalisé aux entreprises pour les aider à comprendre et gérer la complexité de leur SI  - Paris, France.</p><hr>"
           title1: "2014 / 2016 : Consultant et Développeur Web."
           list1_html:
             "<ul>
@@ -80,8 +80,8 @@ fr:
                     </li>
                 </ul>"
         servier:
-          desc_html: "<p>Servier est le premier groupe pharmaceutique indépendant français. Il est présent dans 140 pays, plus de 21 000 personnes collaborent dans le monde. - Paris, France.</p><hr/>"
-          title1: "Développeur FrontEnd."
+          desc_html: "<p>Premier groupe pharmaceutique indépendant français. Il est présent dans 140 pays, plus de 21 000 personnes collaborent dans le monde. - Paris, France.</p><hr/>"
+          title1: "Développeur FrontEnd - DSI Internationale"
           list1_html:
                 "<ul>
                     <li>
@@ -100,7 +100,7 @@ fr:
                         Récupération et remise en service d'anciens ordinateurs utilisés dans les entreprises.
                     </li>
                     <li>
-                        Support, et sécurisation de PC Windows et Déploiement d'un wifi ouvert et gratuit dans les deux hôpitaux.
+                        Support et sécurisation de PC Windows et Déploiement d'un wifi ouvert et gratuit dans les deux hôpitaux.
                     </li>
                 </ul>"
       projects:
@@ -149,7 +149,7 @@ fr:
         competencies:
           p1_html:
                 "<p>
-                    Durant mes précédentes expériences professionnelles j'ai acquis ces compétences importantes :
+                    Durant mes expériences professionnelles, j'ai acquis ces compétences :
                 </p>"
           list1_html:
                 "<ul>
@@ -171,7 +171,7 @@ fr:
                 </ul>"
           p2_html:
                 "<p>
-                    De plus j'ai acquis les bases et des notions supplémentaires sur des sujets variés :
+                    De plus, j'ai acquis les bases et des notions supplémentaires sur des sujets variés :
                 </p>"
           list2_html:
                 "<ul>
@@ -179,13 +179,13 @@ fr:
                         AngularJS / ReactJS / NodeJS.
                     </li>
                     <li>
-                        C / C++ (projets effectués : jeu Choplifter-like written écrit avec la  SDL en langage C & coeur d'un moteur de recherche écrit en C++).
+                        C / C++ (projets effectués : jeu Choplifter-like écrit avec la SDL en langage C & coeur d'un moteur de recherche écrit en C++).
                     </li>
                     <li>
                         Go (projet effectué : Site internet proposant une CGI vers ffmpeg pour transcoder des vidéos), Rust, PHP, Python 2 (& 3), Ruby & Ruby on Rails (norra.fr), lisp.
                     </li>
                     <li>
-                        Bases de données (Et leurs différences)
+                        Bases de données (Et leurs différences).
                     </li>
                 </ul>"
       more:
@@ -193,25 +193,35 @@ fr:
         subtitle1: "Plus de projets ?"
         content1_html:
                 "<p>
-                    Bibliothèque permettant la gestion de jobs et workers et interface permettant au backend d'un site web de transcodage Vidéo l'utilisation d'une CGI vers ffmpeg: <a href='https://github.com/FaXaq/gjp'>https://github.com/FaXq/gjp</a>, <a href='https://github.com/FaXaq/coreingo'>https://github.com/FaXaq/coreingo</a>.
+                     Création d'une bibliothèque permettant la gestion de 'jobs' et 'workers' et interface permettant au backend d'un site web de transcodage Vidéo l'utilisation d'une CGI vers le logiciel ffmpeg: <a href='https://github.com/FaXaq/gjp'>https://github.com/FaXq/gjp</a>, <a href='https://github.com/FaXaq/coreingo'>https://github.com/FaXaq/coreingo</a>.
+                 </p>
+                 <p>
+                    Site internet personnel, blog et présentation des projets. Sites effectués en Ruby on Rails. Lien : <a href='https://norra.fr'>https://norra.fr</a>.
+                 </p>
+                 <p>
+
                  </p>"
-        subtitle2: "Réalisations annexes"
+        subtitle2: "Autres réalisations"
         content2_html:
                 "<p>
-                    Durant mes années d'études j'ai participé à la vie de mon école en tant que membre puis Responsable des Relations publiques du campus de Paris. Cela comprend l'organisation et la gestion des JPO et Salons (management d'équipe, planning, reflexion et choix des dates et des salons).
-                 </p>
-                 <p>J'ai aussi participer durant mes années d'études ainsi qu'au sein de _blank à l'organisation d'événements (comme le RedBull Student Kumite) et de conférences sur divers thèmes (Jeux Vidéos, Développement, Modèles de données, Interface Client/Server, etc.).
+                    Durant mes années d'études j'ai contribué à la vie de mon école en tant que membre puis responsable des Relations Publiques du campus de Paris. Cela comprend l'organisation et la gestion des JPO et Salons (management d'équipe, planning, reflexion et choix des dates et des salons).
                  </p>
                  <p>
-                    Durant mes années d'auto-entreprenariat j'ai effectué des réalisations de sites internets pour des particuliers (FrontEnd, BackEnd, Design, Hébergement, Administration Système).
+                    J'ai aussi participé dans cette structure ainsi qu'au sein de _blank à l'organisation d'événements (comme le RedBull Student Kumite) et de conférences sur divers thèmes (Jeux Vidéos, Développement, Modèles de données, Interface Client/Server, etc.).
                  </p>
                  <p>
-                    Au travers de mes projets scolaires j'ai aussi développé des connaissances importantes sur la séparations des composants, découpage et concepetion d'un site ineternet ou d'une application.
+                    En tant qu'auto-entreprenariat j'ai réalisé de sites internet pour des particuliers (FrontEnd, BackEnd, Design, Hébergement, Administration Système).
+                 </p>
+                 <p>
+                    Au travers de mes projets scolaires ainsi que de mes projets personnels j'ai acquis des connaissances et compétences importantes sur la séparation des composants, découpage et concepetion d'un site internet, d'une application ou d'une bibliothèque.
+                 </p>
+                 <p>
+                    Actuellement j'apprends les spécificités du langage Rust et les tente de les appliquer sur un projet de DSP.
                  </p>"
         subtitle3: "Mes principales caractéristiques ?"
         content3_html:
                 "<p>
-                    Je suis motivé, autonome, curieux et en constant apprentissage. J'aime réflechir avant d'agir et j'ai besoin d'un environnement qui me plait pour être efficace.
+                    Je suis motivé, autonome, curieux et en constant apprentissage. J'aime réflechir avant d'agir et j'ai besoin d'un environnement enthousiaste pour être performant.
                 </p>"
         subtitle4: "Du code que j'ai écrit ?"
         content4_html:
